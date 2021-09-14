@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 body{
     background-color: #212529;
 }
@@ -44,5 +48,81 @@ header{
 }
 
 .header__container__linkedinicon:hover{
+    cursor: pointer;
+}
+
+main{
+
+}
+
+.firstPage {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 0px;
+}
+
+.firstPage__leftContainer{
+    width: 550px;
+    height: 500px;
+    margin-left: 30px;
+}
+
+.firstPage__leftContainer__container__titleContainer{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    color: #F8F9FA;
+}
+.firstPage__leftContainer__container__subtitleContainer{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #68717A;
+}
+
+.firstPage__rightContainer__iphoneAndWindowImg{
+    margin-right: 0px;
+    
+}
+
+.firstPage__separator{
+    position:absolute ;
+    margin-left: 50%;
+    width: 2px;
+    background-color: #3A4147;
+    height: 100%;
+}
+
+.firstPage__aboutMeButtonContainer{
+    position: absolute;
+    z-index: 2;
+    margin-left: 46.6%;
+}
+
+.firstPage__leftContainer__container__buttonContainer{
+    margin-top: 100px;
+    color: white;
+    background-color: #18191B;
+    width: 350px;
+    height: 90px;
+    border-radius: 14px;
+}
+
+.firstPage__leftContainer__container__buttonContainer__button{
+    width: 350px;
+    height: 90px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 38px;
+    font-weight: 530;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 4px 15px 5px #00000025;
+    border-radius: 14px;
+}
+
+.firstPage__leftContainer__container__buttonContainer__button:hover{
     cursor: pointer;
 }
