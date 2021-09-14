@@ -1,0 +1,48 @@
+body{
+    background-color: #212529;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__container{
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+.header__logo{
+ margin-left: 25px;
+ margin-top: 10px;
+}
+
+.header__container__menuButton{
+    background-color: transparent;
+    border: none;
+}
+
+.header__container__menuButton:hover{
+    cursor: pointer;
+}
+
+.header__container__githubIcon:hover{
+    cursor: pointer;
+}
+
+.header__container__instagramicon:hover{
+    cursor: pointer;
+}
+
+.header__container__stackoverflowicon:hover{
+    cursor: pointer;
+}
+
+.header__container__twitterIcon:hover{
+    cursor: pointer;
+}
+
+.header__container__linkedinicon:hover{
+    cursor: pointer;
+}
