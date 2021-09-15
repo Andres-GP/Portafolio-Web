@@ -49,6 +49,10 @@ header{
 .header__container__linkedinicon:hover{
     cursor: pointer;
 }
+.header__container a{ 
+    text-decoration: none; 
+}
+
 
 main{
 
@@ -135,4 +139,5 @@ main{
     width: 100%;
     height: px;
 }
+
 
