@@ -90,7 +90,7 @@ main{
     margin-left: 50%;
     width: 2px;
     background-color: #3A4147;
-    height: 100%;
+    height: 705px;
 }
 
 .firstPage__aboutMeButtonContainer{
@@ -126,3 +126,10 @@ main{
 .firstPage__leftContainer__container__buttonContainer__button:hover{
     cursor: pointer;
 }
+
+.secondPage{
+    background-color: #F5F7FA;
+    width: 100%;
+    height: px;
+}
+
