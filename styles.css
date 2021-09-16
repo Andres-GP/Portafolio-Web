@@ -207,8 +207,90 @@ header{
     justify-self: end;
 }
 
-.mblogProyectContainer__container{
+.behendProyectContainer__container__description{
     width: 880px;
     height: 177px;
     background-color: white;
+    border-radius: 30px;
+    color: #A1A1A1;
+}
+
+.mblogProyectContainer__container__description{
+    width: 880px;
+    height: 177px;
+    background-color: white;
+    border-radius: 30px;
+    color: #A1A1A1;
+}
+
+.notasticProyectContainer__container__description{
+    width: 880px;
+    height: 177px;
+    background-color: white;
+    border-radius: 30px;
+    color: #A1A1A1;
+}
+
+.protompanyProyectContainer__container__description{
+    width: 880px;
+    height: 177px;
+    background-color: white;
+    border-radius: 30px;
+    color: #A1A1A1;
+}
+
+.behendProyectContainer__container__description h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.mblogProyectContainer__container__description h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.notasticProyectContainer__container__description h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.protompanyProyectContainer__container__description h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.behendProyectContainer__container__description__linksContainer a{
+    text-decoration: none;
+}
+
+.mblogProyectContainer__container__description__linksContainer a{
+    text-decoration: none;
+}
+
+.notasticProyectContainer__container__description__linksContainer a{
+    text-decoration: none;
+}
+
+.protompanyProyectContainer__container__description__linksContainer a{
+    text-decoration: none;
+}
+
+.behendProyectContainer__container__description__linksContainer a:hover{
+    cursor: pointer;
+}
+
+.mblogProyectContainer__container__description__linksContainer a:hover{
+    cursor: pointer;
+}
+
+.notasticProyectContainer__container__description__linksContainer a:hover{
+    cursor: pointer;
+}
+
+.protompanyProyectContainer__container__description__linksContainer a:hover{
+    cursor: pointer;
 }
