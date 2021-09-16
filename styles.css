@@ -140,7 +140,6 @@ header{
 }
 
 .secondPage__titleContainer{
-    z-index: 4;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -149,7 +148,7 @@ header{
 .secondPage__titleContainer__container{
     display: flex;
     flex-direction: row;
-    margin-top: 90px;
+    margin-top: 70px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -206,4 +205,10 @@ header{
     grid-column: 3 / 3;
     grid-row: 7 / span 8;
     justify-self: end;
+}
+
+.mblogProyectContainer__container{
+    width: 880px;
+    height: 177px;
+    background-color: white;
 }
