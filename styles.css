@@ -81,6 +81,7 @@ header{
 
 .firstPage__leftContainer__container__subtitleContainer h2{
     font-weight: 500;
+    line-height: 35px;
 }
 
 .firstPage__rightContainer__iphoneAndWindowImg{
@@ -137,6 +138,7 @@ header{
     background-color: #F5F7FA;
     width: 100%;
     margin-top: 30px;
+    z-index: 1;
 }
 
 .secondPage__titleContainer{
@@ -207,7 +209,224 @@ header{
     justify-self: end;
 }
 
-.behendProyectContainer__container__description{
+.second__thirdPageWaves{
+    grid-column: 1 /span 3;
+    grid-row: 8 / 8;
+    align-self: end;
+}
+
+.second__thirdPageWaves img{
+    width: 100%;
+    z-index: 4;
+}
+
+.secondPageColumn__behendProyectContainer{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    width: 100%;
+    margin-bottom: 160px;
+}
+
+.secondPageColumn__behendProyectContainer__container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.secondPageColumn__behendProyectContainer__container img{
+    width: 880px;
+    height: 586px;
+}
+
+.secondPageColumn__behendProyectContainer__containerIcon{
+    position: absolute;
+    background-color:transparent;
+    width: 100%;
+    margin-bottom: 134px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 3;
+}
+.secondPageColumn__behendProyectContainer__containerIcon__icon{
+    z-index: 4;
+    width: 880px;
+    background-color: transparent;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.secondPageColumn__behendProyectContainer__containerIcon__icon img{
+    width: 83px;
+    height: 83px;
+    margin-left: 100px;
+}
+
+.secondPageColumn__behendProyectContainer__container__description__linksContainer a img{
+    width: 43px;
+    height: 45px;
+}
+
+.secondPageColumn__mblogProyectContainer{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    width: 100%;
+    margin-bottom: 160px;
+}
+
+.secondPageColumn__mblogProyectContainer__container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.secondPageColumn__mblogProyectContainer__container img{
+    width: 880px;
+    height: 586px;
+}
+
+.secondPageColumn__mblogProyectContainer__containerIcon{
+    position: absolute;
+    background-color:transparent;
+    width: 100%;
+    margin-bottom: 134px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 3;
+}
+
+.secondPageColumn__mblogProyectContainer__containerIcon__icon{
+    z-index: 4;
+    width: 880px;
+    background-color: transparent;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.secondPageColumn__mblogProyectContainer__containerIcon__icon img{
+    width: 83px;
+    height: 83px;
+    margin-left: 100px;
+}
+
+.secondPageColumn__mblogProyectContainer__container__description__linksContainer a img{
+    width: 43px;
+    height: 45px;
+}
+
+.secondPageColumn__notasticProyectContainer{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    width: 100%;
+    margin-bottom: 160px;
+}
+
+.secondPageColumn__notasticProyectContainer__container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.secondPageColumn__notasticProyectContainer__container img{
+    width: 880px;
+    height: 586px;
+}
+
+.notasticProyectContainer__containerIcon{
+    position: absolute;
+    background-color:transparent;
+    width: 100%;
+    margin-bottom: 134px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 3;
+}
+
+.notasticProyectContainer__containerIcon__icon{
+    z-index: 4;
+    width: 880px;
+    background-color: transparent;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.notasticProyectContainer__containerIcon__icon img{
+    width: 83px;
+    height: 83px;
+    margin-left: 100px;
+}
+
+.secondPageColumn__notasticProyectContainer__container__description__linksContainer a img{
+    width: 43px;
+    height: 45px;
+}
+
+.secondPageColumn__protompanyProyectContainer{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    width: 100%;
+    margin-bottom: 130px;
+}
+
+.secondPageColumn__protompanyProyectContainer__container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.secondPageColumn__protompanyProyectContainer__container img{
+    width: 880px;
+    height: 586px;
+}
+
+.protompanyProyectContainer__containerIcon{
+    position: absolute;
+    background-color:transparent;
+    width: 100%;
+    margin-bottom: 134px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 3;
+}
+
+.protompanyProyectContainer__containerIcon__icon{
+    z-index: 4;
+    width: 880px;
+    background-color: transparent;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.protompanyProyectContainer__containerIcon__icon img{
+    width: 83px;
+    height: 83px;
+    margin-left: 100px;
+}
+
+.secondPageColumn__protompanyProyectContainer__container__description__linksContainer a img{
+    width: 43px;
+    height: 45px;
+}
+
+.secondPageColumn__behendProyectContainer__container__description{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
     width: 880px;
     height: 177px;
     background-color: white;
@@ -215,7 +434,10 @@ header{
     color: #A1A1A1;
 }
 
-.mblogProyectContainer__container__description{
+.secondPageColumn__mblogProyectContainer__container__description{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
     width: 880px;
     height: 177px;
     background-color: white;
@@ -223,7 +445,10 @@ header{
     color: #A1A1A1;
 }
 
-.notasticProyectContainer__container__description{
+.secondPageColumn__notasticProyectContainer__container__description{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
     width: 880px;
     height: 177px;
     background-color: white;
@@ -231,7 +456,10 @@ header{
     color: #A1A1A1;
 }
 
-.protompanyProyectContainer__container__description{
+.secondPageColumn__protompanyProyectContainer__container__description{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
     width: 880px;
     height: 177px;
     background-color: white;
@@ -239,58 +467,89 @@ header{
     color: #A1A1A1;
 }
 
-.behendProyectContainer__container__description h2{
+.secondPageColumn__behendProyectContainer__container__description h2{
+    margin-top: 60px;
+    margin-left: 50px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 15.9px;
+    line-height: 28px;
 }
 
-.mblogProyectContainer__container__description h2 {
+.secondPageColumn__mblogProyectContainer__container__description h2 {
+    margin-top: 60px;
+    margin-left: 50px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 15.9px;
+    line-height: 28px;
 }
 
-.notasticProyectContainer__container__description h2{
+.secondPageColumn__notasticProyectContainer__container__description h2{
+    margin-top: 60px;
+    margin-left: 50px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 15.9px;
+    line-height: 28px;
 }
 
-.protompanyProyectContainer__container__description h2{
+.secondPageColumn__protompanyProyectContainer__container__description h2{
+    margin-top: 60px;
+    margin-left: 50px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 15.9px;
+    line-height: 28px;
+}
+.secondPageColumn__behendProyectContainer__container__description__linksContainer{
+    margin-top: 70px;
+    margin-right: 40px;
 }
 
-.behendProyectContainer__container__description__linksContainer a{
+.secondPageColumn__mblogProyectContainer__container__description__linksContainer{
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+.secondPageColumn__notasticProyectContainer__container__description__linksContainer{
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+.secondPageColumn__protompanyProyectContainer__container__description__linksContainer{
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+.secondPageColumn__behendProyectContainer__container__description__linksContainer a{
     text-decoration: none;
 }
 
-.mblogProyectContainer__container__description__linksContainer a{
+.secondPageColumn__mblogProyectContainer__container__description__linksContainer a{
     text-decoration: none;
 }
 
-.notasticProyectContainer__container__description__linksContainer a{
+.secondPageColumn__notasticProyectContainer__container__description__linksContainer a{
     text-decoration: none;
 }
 
-.protompanyProyectContainer__container__description__linksContainer a{
+.secondPageColumn__protompanyProyectContainer__container__description__linksContainer a{
     text-decoration: none;
 }
 
-.behendProyectContainer__container__description__linksContainer a:hover{
+.secondPageColumn__behendProyectContainer__container__description__linksContainer a:hover{
     cursor: pointer;
 }
 
-.mblogProyectContainer__container__description__linksContainer a:hover{
+.secondPageColumn__mblogProyectContainer__container__description__linksContainer a:hover{
     cursor: pointer;
 }
 
-.notasticProyectContainer__container__description__linksContainer a:hover{
+.secondPageColumn__notasticProyectContainer__container__description__linksContainer a:hover{
     cursor: pointer;
 }
 
-.protompanyProyectContainer__container__description__linksContainer a:hover{
+.secondPageColumn__protompanyProyectContainer__container__description__linksContainer a:hover{
     cursor: pointer;
 }
