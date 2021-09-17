@@ -17,10 +17,23 @@ header{
     margin-right: 25px;
 }
 
-.header__logo{
- margin-left: 25px;
- margin-top: 10px;
+.header__container a img{
+    width: 50px;
+    height: 52px;
 }
+
+.header__container button img{
+    width: 50px;
+    height: 52px;
+}
+
+.header__logo{
+    width: 70px;
+    height: 80.5px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
 
 .header__container__menuButton{
     background-color: transparent;
@@ -104,7 +117,7 @@ header{
 }
 
 .firstPage__leftContainer__container__buttonContainer{
-    margin-top: 100px;
+    margin-top: 50px;
     color: white;
     background-color: #18191B;
     width: 350px;
