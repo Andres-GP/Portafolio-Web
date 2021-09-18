@@ -174,6 +174,9 @@ header{
 }
 
 .secondPage__titleContainer{
+    grid-column: 2;
+    grid-row: 1;
+    z-index: 2;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -261,6 +264,15 @@ header{
 .second__thirdPageWaves img{
     width: 100%;
     z-index: 4;
+}
+
+.secondPageColumn{
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    top: 0;
+    z-index: 20;
+    margin-top: 960px;
 }
 
 .secondPageColumn__behendProyectContainer{
@@ -473,7 +485,7 @@ header{
     width: 880px;
     height: 177px;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 25px;
     color: #A1A1A1;
 }
 
@@ -484,7 +496,7 @@ header{
     width: 880px;
     height: 177px;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 25px;
     color: #A1A1A1;
 }
 
@@ -495,7 +507,7 @@ header{
     width: 880px;
     height: 177px;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 25px;
     color: #A1A1A1;
 }
 
@@ -506,7 +518,7 @@ header{
     width: 880px;
     height: 177px;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 25px;
     color: #A1A1A1;
 }
 
