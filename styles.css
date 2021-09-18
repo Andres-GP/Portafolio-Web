@@ -11,6 +11,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 3;
 }
 
 .header__container{
@@ -129,12 +130,12 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 70px;
 }
 .firstPage__aboutMeButtonContainer img{
     height: 110px;
     width: 110px;
     margin-right: 15px;
-    margin-top: 70px;
 }
 
 .firstPage__aboutMeButtonContainer img:hover{
@@ -220,45 +221,49 @@ header{
 }
 
 .secondPage__firstImageTablet{
-    z-index: 1;
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #F5F7FA;
+}
+
+.secondPage__firstImageTablet img{
+    z-index: 2;
 }
 
 .secondPage__secondImageTablet{
     grid-column: 3 ;
     grid-row: 2;
     justify-self: end;
+    z-index: 2;
 }
 
 .secondPage__thirdImageTablet{
-   grid-column: 1 / 1;
-   grid-row: 3 / span 4;
+    grid-column: 1 / 1;
+    grid-row: 3 / span 4;
+    z-index: 2;
 }
 
 .secondPage__fourthImageTablet{
     grid-column: 3 / 3;
     grid-row: 4 / span 5;
     justify-self: end;
+    z-index: 2;
 }
 
 .secondPage__fifthImageTablet{
     grid-column: 1 / 1;
     grid-row: 6 / span 7;
+    z-index: 2;
 }
 
 .secondPage__sixthImageTablet{
     grid-column: 3 / 3;
     grid-row: 7 / span 9;
     justify-self: end;
-}
-
-.second__thirdPageWaves{
-    grid-column: 1 /span 3;
-    grid-row: 8 / 8;
-    align-self: end;
     z-index: 2;
 }
 
-.secondPage__separator{
+.secondPage__middleBackgroundLine{
     grid-column: 2 / 2;
     grid-row: 1 / 9;
     place-self: center;
@@ -266,6 +271,28 @@ header{
     background-color: #ECECEC;
     height: 100%;
     z-index: 1;
+}
+
+.secondPage__leftBackgroundLine{
+    grid-column: 1 / 1;
+    grid-row: 1 / 9;
+    width: 2px;
+    background-color: #ECECEC;
+    height: 100%;
+    z-index: 1;
+    justify-self: end;
+    margin-right: 40%;
+}
+
+.secondPage__rigthBackgroundLine{
+    grid-column: 3 / 3;
+    grid-row: 1 / 9;
+    width: 2px;
+    background-color: #ECECEC;
+    height: 100%;
+    z-index: 1;
+    justify-self: baseline;
+    margin-left: 40%;
 }
 
 .second__thirdPageWaves img{
@@ -278,7 +305,7 @@ header{
     position: absolute;
     justify-content: center;
     top: 0;
-    z-index: 20;
+    z-index: 4;
     margin-top: 960px;
 }
 
@@ -287,13 +314,14 @@ header{
     justify-content: center;
     background-color: transparent;
     width: 100%;
-    margin-bottom: 160px;
+    margin-bottom: 200px;
 }
 
 .secondPageColumn__behendProyectContainer__container{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    box-shadow: 0 4 4 0 #000000;
 }
 
 .secondPageColumn__behendProyectContainer__container img{
@@ -337,13 +365,14 @@ header{
     justify-content: center;
     background-color: transparent;
     width: 100%;
-    margin-bottom: 160px;
+    margin-bottom: 200px;
 }
 
 .secondPageColumn__mblogProyectContainer__container{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    box-shadow: 0 4 4 0 #000000;
 }
 
 .secondPageColumn__mblogProyectContainer__container img{
@@ -388,13 +417,14 @@ header{
     justify-content: center;
     background-color: transparent;
     width: 100%;
-    margin-bottom: 160px;
+    margin-bottom: 200px;
 }
 
 .secondPageColumn__notasticProyectContainer__container{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    box-shadow: 0 4 4 0 #000000;
 }
 
 .secondPageColumn__notasticProyectContainer__container img{
@@ -439,13 +469,14 @@ header{
     justify-content: center;
     background-color: transparent;
     width: 100%;
-    margin-bottom: 130px;
+    margin-bottom: 40px;
 }
 
 .secondPageColumn__protompanyProyectContainer__container{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    box-shadow: 0 4 4 0 #000000;
 }
 
 .secondPageColumn__protompanyProyectContainer__container img{
@@ -494,6 +525,7 @@ header{
     background-color: white;
     border-radius: 25px;
     color: #A1A1A1;
+    box-shadow: 0px 30px 25px 0px #00000010;
 }
 
 .secondPageColumn__mblogProyectContainer__container__description{
@@ -505,6 +537,7 @@ header{
     background-color: white;
     border-radius: 25px;
     color: #A1A1A1;
+    box-shadow: 0px 30px 25px 0px #00000010;
 }
 
 .secondPageColumn__notasticProyectContainer__container__description{
@@ -516,6 +549,7 @@ header{
     background-color: white;
     border-radius: 25px;
     color: #A1A1A1;
+    box-shadow: 0px 30px 25px 0px #00000010;
 }
 
 .secondPageColumn__protompanyProyectContainer__container__description{
@@ -527,6 +561,7 @@ header{
     background-color: white;
     border-radius: 25px;
     color: #A1A1A1;
+    box-shadow: 0px 30px 25px 0px #00000010;
 }
 
 .secondPageColumn__behendProyectContainer__container__description h2{
@@ -615,5 +650,91 @@ header{
 .secondPageColumn__protompanyProyectContainer__container__description__linksContainer a:hover{
     cursor: pointer;
 }
+.secondPageColumn__otherProyectsContainer{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    width: 100%;
+    margin-bottom: 130px;
+    margin-top: 100px;
+}
 
+.secondPageColumn__otherProyectsContainer__container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.secondPageColumn__otherProyectsContainer__titleContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 80px;
+    background-color: #212529;
+    border: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    box-shadow: 0px 30px 18px 0px #D4D9E8;
+    border-radius: 125px;
+}
+
+.secondPageColumn__otherProyectsContainer__titleContainer__text{
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+}
+
+.secondPageColumn__otherProyectsContainer__titleContainer__dot{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    color: #E44235;
+    margin-bottom: 68px;
+}
+
+.secondPageColumn__otherProyectsContainer__container__leftArrowContainer{
+    margin-top: 350px;
+}
+.secondPageColumn__otherProyectsContainer__container__leftArrowContainer img{
+    width: 190px;
+    height: 190px;
+}
+
+.secondPageColumn__otherProyectsContainer__container__rigthArrowContainer{
+    margin-top: 350px;  
+}
+
+.secondPageColumn__otherProyectsContainer__container__mainContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 25px;
+    color: #A1A1A1;
+    box-shadow: 0px 30px 25px 0px #00000010;
+    width: 900px;
+    height: 600px;
+    margin-top: 140px;
+    z-index: 1;
+}
+
+.secondPageColumn__otherProyectsContainer__container__rigthArrowContainer img{
+    width: 190px;
+    height: 190px;
+}
+
+
+.second__thirdPageWaves{
+    position: absolute;
+    top: 0;
+    margin-top: 4650px;
+    z-index: 5;
+}
 /*Khe*/
