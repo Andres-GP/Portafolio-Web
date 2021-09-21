@@ -743,9 +743,11 @@ header{
 .thirdPage{
     width: 100%;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .thirdPage__backgroundContainer{
+    position: absolute;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(4,1fr);
@@ -776,6 +778,14 @@ header{
     grid-column: 3;
     grid-row: 4 / span 5;
     justify-self: end;
+}
+
+.thirdPage__mainContainer{
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    margin-top: 130px;
+    z-index: 6;
 }
 
 .thirdPage__mainContainer__mainDescriptionContainer{
@@ -1056,6 +1066,122 @@ margin-top: 15px;
     font-family: 'DM Sans', sans-serif;
     color: #9341D1;
     font-size: 72px
+}
+
+.thirdPage__mainContainer__contactContainer__iconContainer img{
+    width: 150;
+    height: 170px;
+}
+
+.thirdPage__mainContainer__contactContainer__container{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.thirdPage__mainContainer__contactContainer__container__leftContainer{
+    width: 50%;
+    color: white;
+}
+
+.thirdPage__mainContainer__contactContainer__container__leftContainer h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    width: 400px;
+    text-align: left;
+    margin-left: 400px;
+}
+
+.thirdPage__mainContainer__contactContainer__container__padding{
+    width: 4px;
+    background-color: #333A41;
+}
+
+.thirdPage__mainContainer__contactContainer__container__rigthContainer__container{
+    display: block;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.thirdPage__mainContainer__contactContainer__container__rigthContainer__container__title{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.thirdPage__mainContainer__contactContainer__container__rigthContainer__container_email{
+    font-family: 'Inter', sans-serif;
+    color: #68717A;
+    font-size: 15px;
+}
+
+.thirdPage__mainContainer__contactContainer__container__rigthContainer__container_numberContact{
+    font-family: 'Inter', sans-serif;
+    color: #68717A;
+    font-size: 15px;
+}
+
+.thirdPage__mainContainer__contactContainer__container__rigthContainer__linksIcon{
+    display: flex;
+    margin-left: 40px;
+}
+
+.thirdPage__mainContainer__contactContainer__container__rigthContainer__linksIcon__githubIcon img{
+    width: 40px;
+    height: 40px;
+}
+
+.thirdPage__mainContainer__contactContainer__container__rigthContainer__linksIcon__instagramicon img{
+    width: 40px;
+    height: 40px;
+}
+
+.thirdPage__mainContainer__contactContainer__container__rigthContainer__linksIcon__stackoverflowicon img{
+    width: 40px;
+    height: 40px;
+}
+
+.thirdPage__mainContainer__contactContainer__container__rigthContainer__linksIcon__twitterIcon img{
+    width: 40px;
+    height: 40px;
+}
+
+.thirdPage__mainContainer__contactContainer__container__rigthContainer__linksIcon__linkedinicon img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/*Footer*/
+
+.footer{
+    bottom: 0px;
+    width: 100%;
+    z-index: 30;
+}
+
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*margin-top: 50px;*/
+    margin-top: 2500px;
+    position: relative;
+}
+
+.footerContainer__text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: white;
+}
+
+.footerContainer__dot{
+    font-family: 'Inter', sans-serif;
+    color: #FCC500;
+    font-size: 30px;
+    margin-top: 17px;
 }
 
 /*Khe*/
