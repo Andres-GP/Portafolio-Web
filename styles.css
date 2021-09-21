@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap');
 body{
     background-color: #212529;
     width: 100%;
@@ -998,7 +999,7 @@ margin-top: 15px;
 .thirdPage__mainContainer__titlesContainer__mainContainer{
     background-color: #2A2F34;
     justify-content: center;
-    width: 768px;
+    width: 778px;
     height: 617px;
     border-radius: 21px;
     margin-top: 150px;
@@ -1030,29 +1031,31 @@ margin-top: 15px;
 }
 
 .thirdPage__mainContainer__contactContainer__titleContainer__text__firstPart{
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Palanquin Dark', sans-serif;
     color: white;
-    font-size: 35px;
+    font-size: 72px;
+    font-weight: 400;
 }
 
 .thirdPage__mainContainer__contactContainer__titleContainer__text__signe{
     font-family: 'Work Sans', sans-serif;
     color: white;
-    font-size: 35px;
+    font-size: 72px;
+    margin-top: 85px;
 }
 
 .thirdPage__mainContainer__contactContainer__titleContainer__text__secondPart{
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Palanquin Dark', sans-serif;
     color: white;
-    font-weight: 8s00;
-    font-size: 35px;
+    font-weight: 400;
+    font-size: 72px
 }
 
 .thirdPage__mainContainer__contactContainer__titleContainer__signe{
-    margin-top: 28px;
+    margin-top: 85px;
     font-family: 'DM Sans', sans-serif;
     color: #9341D1;
-    font-size: 35px;
+    font-size: 72px
 }
 
 /*Khe*/
