@@ -812,6 +812,7 @@ header{
     margin-top: 20px;
     margin-right: 50px;
     border-radius: 24px;
+    box-shadow: 0px 4px 15px 5px #00000025;
 }
 
 .thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer__profileImage{
@@ -913,12 +914,12 @@ header{
     background-color: #2A2F34;
     justify-content: baseline;
     display: block;
-    width: 890px; 
-    height: 315px;
-    /*margin-left: 200px;*/
-    margin-left: 13%;
-    margin-top: 100px;
+    width: 750px; 
+    height: 330px;
+    margin-left: 17%;
+    margin-top: 60px;
     border-radius: 21px;
+    box-shadow: 0px 4px 15px 5px #00000015;
 }
 
 .thirdPage__mainContainer__competenciesContainer__title{
@@ -929,11 +930,11 @@ header{
 }
 
 .thirdPage__mainContainer__competenciesContainer__title h2{
-    margin-top: 40px;
     font-family: 'Manrope', sans-serif;
     font-weight: 700;
     font-size: 22px;
     letter-spacing: 10px;
+    margin-top: 32px;
 }
 
 .thirdPage__mainContainer__competenciesContainer__frontEndTitle h2{
@@ -942,6 +943,7 @@ header{
     font-size: 13px;
     color: white;
     margin-left: 50px;
+    margin-right: 50px;
     margin-top:5px;
 }
 
@@ -951,6 +953,7 @@ header{
     font-size: 14px;
     color: white;
     margin-left: 50px;
+    margin-right: 50px;
     margin-top:-2px;
 }
 
@@ -960,6 +963,7 @@ header{
     font-size: 13px;
     color: white;
     margin-left: 50px;
+    margin-right: 50px;
     margin-top:15px;
 }
 
@@ -969,6 +973,7 @@ header{
     font-size: 14px;
     color: white;
     margin-left: 50px;
+    margin-right: 50px;
     margin-top: -2px;
 }
 
@@ -978,6 +983,7 @@ header{
     font-size: 13px;
     color: white;
     margin-left: 50px;
+    margin-right: 50px;
     margin-top:15px;
 }
 
@@ -987,6 +993,7 @@ header{
     font-size: 14px;
     color: white;
     margin-left: 50px;
+    margin-right: 50px;
     margin-top: -3px;
 }
 
@@ -1011,6 +1018,7 @@ header{
     height: 617px;
     border-radius: 21px;
     margin-top: 150px;
+    box-shadow: 0px 4px 15px 5px #00000015;
 }
 
 .thirdPage__mainContainer__titlesContainer__rigthArrowContainer{
