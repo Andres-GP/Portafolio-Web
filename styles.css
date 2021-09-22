@@ -769,9 +769,12 @@ header{
 
 .thirdPage__backgroundContainer__secondImageTablet{
     grid-column: 3 / 3;
-    grid-row: 2 / span 3;
+    grid-row: 2 / span 2;
     justify-self: end;
-    margin-top: 80px;
+    margin-top: -75px;
+}
+
+.thirdPage__backgroundContainer__secondImageTablet img{
 }
 
 .thirdPage__backgroundContainer__thirdImageTablet{
@@ -799,7 +802,6 @@ header{
     width: 100%;
     justify-content: center;
     flex-direction: row;
-    
 }
 
 .thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer{
@@ -849,7 +851,7 @@ header{
 
 .thirdPage__mainContainer__mainDescriptionContainer__textDescription{
     display: block;
-    width: 700px;
+    width: 580px;
 }
 
 .thirdPage__mainContainer__mainDescriptionContainer__textDescription__title{
@@ -877,6 +879,7 @@ header{
     color: #68717A;
 }
 
+
 .thirdPage__mainContainer__mainDescriptionContainer__textDescription__text__1{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -885,24 +888,6 @@ header{
     margin-bottom: 0px;
     line-height: 28px;
 }
-.thirdPage__mainContainer__mainDescriptionContainer__textDescription__text__2{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: 28px;
-}
-
-.thirdPage__mainContainer__mainDescriptionContainer__textDescription__text__3{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    line-height: 28px;
-}
-
 
 .thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer__lenguagesContainer{
     display: block;
