@@ -93,19 +93,23 @@ header{
 }
 
 .firstPage__leftContainer__container__titleContainer{
-    font-size: 18px;
+}
+.firstPage__leftContainer__container__titleContainer h1{
+    font-size: 44px;
     font-family: 'Inter', sans-serif;
     color: #F8F9FA;
 }
 .firstPage__leftContainer__container__subtitleContainer{
-    font-family: 'Inter', sans-serif;
-    font-size: 13px;
     color: #68717A;
 }
 
 .firstPage__leftContainer__container__subtitleContainer h2{
-    font-weight: 500;
-    line-height: 35px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 28px;
 }
 
 .firstPage__rightContainer__iphoneAndWindowImg{
@@ -147,7 +151,7 @@ header{
 }
 
 .firstPage__leftContainer__container__buttonContainer{
-    margin-top: 50px;
+    margin-top: 70px;
     color: white;
     background-color: #18191B;
     width: 350px;
@@ -832,22 +836,22 @@ header{
 .thirdPage__mainContainer__mainDescriptionContainer__textDescription__title{
     display: flex;
     font-weight: 700;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 .thirdPage__mainContainer__mainDescriptionContainer__textDescription__title__text{
     color: #FFFFFF;
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .thirdPage__mainContainer__mainDescriptionContainer__textDescription__title__dot{
     color: #F4BE00;
     font-family: 'DM Sans', sans-serif;
     font-weight: 800;
-    font-size: 30px;
-    margin-top: 10px;
+    font-size: 34px;
+    margin-top: 15px;
 }
 
 .thirdPage__mainContainer__mainDescriptionContainer__textDescription__text{
@@ -857,7 +861,7 @@ header{
 .thirdPage__mainContainer__mainDescriptionContainer__textDescription__text__1{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 28px;
@@ -865,7 +869,7 @@ header{
 .thirdPage__mainContainer__mainDescriptionContainer__textDescription__text__2{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 28px;
@@ -874,7 +878,7 @@ header{
 .thirdPage__mainContainer__mainDescriptionContainer__textDescription__text__3{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 28px;
