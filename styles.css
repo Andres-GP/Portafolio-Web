@@ -668,7 +668,7 @@ header{
     background-color: transparent;
     width: 100%;
     margin-top: 40px;
-    justify-content: space-between;
+    justify-content: center;
     z-index: 3;
 }
 
@@ -829,6 +829,24 @@ header{
     text-align: center;
 }
 
+.thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer__locationContainer{
+    margin-top: 15px;
+}
+    
+.thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer__locationContainer__title{
+    color: #8F98A1;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+    
+.thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer__locationContainer__text{
+    color: #8F98A1;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
 .thirdPage__mainContainer__mainDescriptionContainer__textDescription{
     display: block;
     width: 700px;
@@ -885,28 +903,11 @@ header{
     line-height: 28px;
 }
 
-.thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer__locationContainer{
-margin-top: 15px;
-}
-
-.thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer__locationContainer__title{
-    color: #8F98A1;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 13px;
-}
-
-.thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer__locationContainer__text{
-    color: #8F98A1;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 13px;
-}
 
 .thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer__lenguagesContainer{
     display: block;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 22px;
 }
 
 .thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer__lenguagesContainer__title{
@@ -927,9 +928,10 @@ margin-top: 15px;
     background-color: #2A2F34;
     justify-content: baseline;
     display: block;
-    width: 900px; 
-    height: 300px;
-    margin-left: 200px;
+    width: 890px; 
+    height: 315px;
+    /*margin-left: 200px;*/
+    margin-left: 13%;
     margin-top: 100px;
     border-radius: 21px;
 }
@@ -955,15 +957,16 @@ margin-top: 15px;
     font-size: 13px;
     color: white;
     margin-left: 50px;
-    margin-top: 0px;
+    margin-top:5px;
 }
 
 .thirdPage__mainContainer__competenciesContainer__frontEndText h2{
     font-family: 'Manrope', sans-serif;
     font-weight: 100;
-    font-size: 13px;
+    font-size: 14px;
     color: white;
     margin-left: 50px;
+    margin-top:-2px;
 }
 
 .thirdPage__mainContainer__competenciesContainer_softSkillsTitle h2{
@@ -972,14 +975,16 @@ margin-top: 15px;
     font-size: 13px;
     color: white;
     margin-left: 50px;
+    margin-top:15px;
 }
 
 .thirdPage__mainContainer__competenciesContainer__softSkillsText h2{
     font-family: 'Manrope', sans-serif;
     font-weight: 100;
-    font-size: 13px;
+    font-size: 14px;
     color: white;
     margin-left: 50px;
+    margin-top: -2px;
 }
 
 .thirdPage__mainContainer__competenciesContainer_otherTitle h2{
@@ -988,14 +993,16 @@ margin-top: 15px;
     font-size: 13px;
     color: white;
     margin-left: 50px;
+    margin-top:15px;
 }
 
 .thirdPage__mainContainer__competenciesContainer_otherText h2{
     font-family: 'Manrope', sans-serif;
     font-weight: 100;
-    font-size: 13px;
+    font-size: 14px;
     color: white;
     margin-left: 50px;
+    margin-top: -3px;
 }
 
 .thirdPage__mainContainer__titlesContainer{
@@ -1083,77 +1090,83 @@ margin-top: 15px;
     display: flex;
     width: 100%;
     margin-top: 50px;
+    justify-content: center;
+}
+.thirdPage__mainContainer__contactContainer__container__centerContainer{
+    display: flex;
 }
 
-.thirdPage__mainContainer__contactContainer__container__leftContainer{
-    margin-top: 35px;
+.thirdPage__mainContainer__contactContainer__container__centerContainer__leftContainer{
+    margin-top: 39px;
     width: 50%;
     color: white;
 }
 
-.thirdPage__mainContainer__contactContainer__container__leftContainer h2{
+.thirdPage__mainContainer__contactContainer__container__centerContainer__leftContainer h2{
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     width: 400px;
     text-align: left;
-    margin-left: 400px;
 }
 
-.thirdPage__mainContainer__contactContainer__container__padding{
-    width: 4px;
+.thirdPage__mainContainer__contactContainer__container__centerContainer__padding{
+    width: 3px;
     background-color: #333A41;
 }
 
-.thirdPage__mainContainer__contactContainer__container__rigthContainer__container{
+.thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__container{
     display: block;
     text-align: left;
     margin-left: 50px;
 }
 
-.thirdPage__mainContainer__contactContainer__container__rigthContainer__container__title{
+.thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__container__title{
     font-family: 'Inter', sans-serif;
     color: white;
     font-size: 20px;
 }
 
-.thirdPage__mainContainer__contactContainer__container__rigthContainer__container_email{
+.thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__container_email{
     font-family: 'Inter', sans-serif;
     color: #68717A;
     font-size: 15px;
+    font-weight: 500;
 }
 
-.thirdPage__mainContainer__contactContainer__container__rigthContainer__container_numberContact{
+.thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__container_numberContact{
     font-family: 'Inter', sans-serif;
     color: #68717A;
     font-size: 15px;
+    font-weight: 500;
+    margin-left: -1px;
 }
 
-.thirdPage__mainContainer__contactContainer__container__rigthContainer__linksIcon{
+.thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__linksIcon{
     display: flex;
     margin-left: 40px;
 }
 
-.thirdPage__mainContainer__contactContainer__container__rigthContainer__linksIcon__githubIcon img{
+.thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__linksIcon__githubIcon img{
     width: 40px;
     height: 40px;
 }
 
-.thirdPage__mainContainer__contactContainer__container__rigthContainer__linksIcon__instagramicon img{
+.thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__linksIcon__instagramicon img{
     width: 40px;
     height: 40px;
 }
 
-.thirdPage__mainContainer__contactContainer__container__rigthContainer__linksIcon__stackoverflowicon img{
+.thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__linksIcon__stackoverflowicon img{
     width: 40px;
     height: 40px;
 }
 
-.thirdPage__mainContainer__contactContainer__container__rigthContainer__linksIcon__twitterIcon img{
+.thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__linksIcon__twitterIcon img{
     width: 40px;
     height: 40px;
 }
 
-.thirdPage__mainContainer__contactContainer__container__rigthContainer__linksIcon__linkedinicon img{
+.thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__linksIcon__linkedinicon img{
     width: 40px;
     height: 40px;
 }
