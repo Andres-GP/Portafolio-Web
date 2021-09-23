@@ -202,17 +202,129 @@
                     <h2 class="secondPageColumn__otherProyectsContainer__titleContainer__text">Other Proyects</h2>
                     <h2 class="secondPageColumn__otherProyectsContainer__titleContainer__dot">.</h2>
                 </div>
-                <div class="secondPageColumn__otherProyectsContainer__container">
-                    <div class="secondPageColumn__otherProyectsContainer__container__leftArrowContainer">
-                        <img src="assets/second_page_otherProyects_leftArrow.png" alt="">
-                    </div>
-                    <div class="secondPageColumn__otherProyectsContainer__container__mainContainer">
-                        
-                    </div>
-                    <div class="secondPageColumn__otherProyectsContainer__container__rigthArrowContainer">
-                        <img src="assets/second_page_otherProyects_rigthArrow.png" alt="">
-                    </div>
-                </div>
+            </div>
+            <div class="secondPageColumn__otherProyectsContainer__carousel">
+                <a href="#" class="left-arrow">
+                    <img src="assets/second_page_otherProyects_leftArrow.png" />
+                </a>
+                <div id="carrusel">
+                     <div class="carrusel">
+                         <div class="product" id="product_0">
+                             <div class="productZero_container">
+                                 <div class="productZero_container__background">
+                                     <img src="assets/product_0.png">
+                                </div>
+                                <div class="productZero_container__icon">
+                                    <img src="" alt="">
+                                </div>
+                                 <div class="productZero_container__description">
+                                     <h2 ></h2>
+                                     <div class="productZero_container__description__iconLinks">
+                                        <a href="">
+                                            <img src="" alt="">
+                                         </a>
+                                         <a href="">
+                                             <img src="" alt="">
+                                         </a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="product" id="product_1">
+                            <div class="productOne_container">
+                                <div class="productOne_container__background">
+                                    <img src="assets/">
+                               </div>
+                               <div class="productOne_container__icon">
+                                   <img src="" alt="">
+                               </div>
+                                <div class="productOne_container__description">
+                                    <div>
+                                        <a href="">
+                                            <img src="" alt="">
+                                         </a>
+                                         <a href="">
+                                             <img src="" alt="">
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="product" id="product_2">
+                            <div class="productTwo_container">
+                                <div class="productTwo_container__background">
+                                    <img src="assets/">
+                               </div>
+                               <div class="productTwo_container__icon">
+                                   <img src="" alt="">
+                               </div>
+                                <div class="productTwo_container__description">
+                                    <h2></h2>
+                                    <div class="productTwo_container__description__iconlinks">
+                                        <a href="">
+                                            <img src="" alt="">
+                                         </a>
+                                    </div>
+                                </div>
+                            </div>>
+                         </div>
+                         <div class="product" id="product_3">
+                            <div class="productThree_container">
+                                <div class="productThree_container__background">
+                                    <img src="assets/">
+                               </div>
+                               <div class="productThree_container__icon">
+                                   <img src="" alt="">
+                               </div>
+                                <div class="productThree_container__description">
+                                    <a href="">
+                                       <img src="" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="product" id="product_4">
+                            <div class="productFour_container">
+                                <div class="productFour_container__background">
+                                    <img src="assets/">
+                               </div>
+                               <div class="productFour_container__icon">
+                                   <img src="" alt="">
+                               </div>
+                                <div class="productFour_container__description">
+                                    <a href="">
+                                       <img src="" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="product" id="product_5">
+                            <div class="productFive_container">
+                                <div class="productFive_container__background">
+                                    <img src="assets/">
+                               </div>
+                               <div class="productFive_container__icon">
+                                   <img src="" alt="">
+                               </div>
+                                <div class="productFive_container__description">
+                                    <a href="">
+                                       <img src="" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                         </div>
+                     </div>
+                 </div>
+                 <a href="#" class="right-arrow"><img src="assets/second_page_otherProyects_rigthArrow.png" /></a>
             </div>
         </div>
 
@@ -370,4 +482,53 @@ dreams come true.
         </div>
     </footer>
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script>
+var current = 0;
+var imagenes = new Array();
+ 
+$(document).ready(function() {
+    var numImages = 6;
+    if (numImages <= 3) {
+        $('.right-arrow').css('display', 'none');
+        $('.left-arrow').css('display', 'none');
+    }
+ 
+    $('.left-arrow').on('click',function() {
+        if (current > 0) {
+            current = current - 1;
+        } else {
+            current = numImages - 3;
+        }
+ 
+        $(".carrusel").animate({"left": -($('#product_'+current).position().left)}, 600);
+ 
+        return false;
+    });
+ 
+    $('.left-arrow').on('hover', function() {
+        $(this).css('opacity','0.5');
+    }, function() {
+        $(this).css('opacity','1');
+    });
+ 
+    $('.right-arrow').on('hover', function() {
+        $(this).css('opacity','0.5');
+    }, function() {
+        $(this).css('opacity','1');
+    });
+ 
+    $('.right-arrow').on('click', function() {
+        if (numImages > current + 3) {
+            current = current+1;
+        } else {
+            current = 0;
+        }
+ 
+        $(".carrusel").animate({"left": -($('#product_'+current).position().left)}, 600);
+ 
+        return false;
+    }); 
+ });
+</script>
 </html>
