@@ -1088,6 +1088,7 @@ header{
     flex-direction: row;
     justify-content: flex-end;
 }
+
 .thirdPage__mainContainer__container__container{
     width: 100%;
     display: flex;
