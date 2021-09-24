@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andres García</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
 
@@ -70,7 +71,10 @@
                 </div>
             </div>
             <div class="firstPage__rightContainer">
-                <img class="firstPage__rightContainer__iphoneAndWindowImg" src="assets/first_page_phone.svg" alt="">
+                <picture class="firstPage__rightContainer__iphoneAndWindowImg">
+                    <source srcset="assets/first_page_phone_media1900px.svg" media="(min-width: 1900px)">
+                    <img class="firstPage__rightContainer__iphoneAndWindowImgsvg" src="assets/first_page_phone.svg" alt="">
+                </picture>
             </div>
         </div>
         <div class="firstPageSidesSeparatorsContainer">
@@ -197,6 +201,8 @@
                     </div>
                 </div>
             </div>
+
+            <!--Other Proyects-->
             <div class="secondPageColumn__otherProyectsContainer">
                 <div class="secondPageColumn__otherProyectsContainer__titleContainer">
                     <h2 class="secondPageColumn__otherProyectsContainer__titleContainer__text">Other Proyects</h2>
@@ -219,7 +225,10 @@
 
         <!--Waves-->
         <div class="second__thirdPageWaves">
-            <img src="assets/third_page_waves.svg" alt="">
+            <picture class="second__thirdPageWaves__picture">
+                <source srcset="assets/third_page_waves_media1440px.svg" media="(min-width: 1440px)">
+                <img src="assets/third_page_waves.svg" alt="waves">
+            </picture>
         </div>
         <div class="thirdPage">
             <div class="thirdPage__backgroundContainer">
@@ -262,43 +271,46 @@
                             <h2 class="thirdPage__mainContainer__mainDescriptionContainer__textDescription__title__dot">.</h2>
                         </div>
                         <div class="thirdPage__mainContainer__mainDescriptionContainer__textDescription__text">
-                            <pre class="thirdPage__mainContainer__mainDescriptionContainer__textDescription__text__1" 
-                            styles="/*mediaquerie*/">    Hi! my name is Andrés, I’m a junior Mobile & web Frontend Developer with
+                            <p2 class="thirdPage__mainContainer__mainDescriptionContainer__textDescription__text__1" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi! my name is Andrés, I’m a junior Mobile & web Frontend Developer with
 over 2 years of experience, software has always been my passion, I have a long 
 journey in Design, Animation and Post-Production. Now I’ve been dedicating time 
 to gain proficiency in all intricacies of Frontend development in order to better 
 myself as a developer and problem solver. I am competent to create clean and 
-functional websites and applications with it’s Branding and Graphic Design as 
-well as taking it’s art to code, I have solid leadership skills 
-to mentor and guide others in their journey, I really love 
-working with people and having always new challenges 
-to reach and helping everybody to make their 
-dreams come true.
-                            </pre>
+functional websites and applications with <br> 
+it’s Branding and Graphic Design as well as taking it’s art <br>
+ to code, I have solid leadership skills to mentor, guide <br>
+  others in their journey, I really love working with people <br>
+   and having always new challenges to reach <br> and helping everybody to make their <br> dreams come true.
+                            </p2>
                         </div>
                     </div>
                 </div>
-                <div class="thirdPage__mainContainer__competenciesContainer">
-                    <div class="thirdPage__mainContainer__competenciesContainer__title">
-                        <h2>COMPETENCIES</h2>
-                    </div>
-                    <div class="thirdPage__mainContainer__competenciesContainer__frontEndTitle">
-                        <h2>FRONTEND:</h2>
-                    </div>
-                    <div class="thirdPage__mainContainer__competenciesContainer__frontEndText">
-                        <h2>HTML5, CSS3, Javascript, Bootstrap, JSX, React, Angular, Typescript, JSON, Electron, XML, Kotlin, Flutter, Iconic, React Native.</h2>
-                    </div>
-                    <div class="thirdPage__mainContainer__competenciesContainer_softSkillsTitle">
-                        <h2>SOFT SKILLS:</h2>
-                    </div>
-                    <div class="thirdPage__mainContainer__competenciesContainer__softSkillsText">
-                        <h2>Leadership, Graphic Desing, Motion Desing, UX/UI Desing, Marketing, Branding, Coordination.</h2>
-                    </div>
-                    <div class="thirdPage__mainContainer__competenciesContainer_otherTitle">
-                        <h2>OTHER:</h2>
-                    </div>
-                    <div class="thirdPage__mainContainer__competenciesContainer_otherText">
-                        <h2>Figma, Premiere, After Effects, Vegas, Github, Gitpod, Trello, +8 years of experience as a Post-Producer & Animator.</h2>
+                <div class="thirdPage__mainContainer__container">
+                    <div class="thirdPage__mainContainer__container__container">
+                        <div class="thirdPage__mainContainer__container__container__spacer"></div>
+                        <div class="thirdPage__mainContainer__container__container__competenciesContainer">
+                            <div class="thirdPage__mainContainer__container__container__competenciesContainer__title">
+                                <h2>COMPETENCIES</h2>
+                            </div>
+                            <div class="thirdPage__mainContainer__container__container__competenciesContainer__frontEndTitle">
+                                <h2>FRONTEND:</h2>
+                            </div>
+                            <div class="thirdPage__mainContainer__container__container__competenciesContainer__frontEndText">
+                                <h2>HTML5, CSS3, Javascript, Bootstrap, JSX, React, Angular, Typescript, JSON, Electron, XML, Kotlin, Flutter, Iconic, React Native.</h2>
+                            </div>
+                            <div class="thirdPage__mainContainer__container__container__competenciesContainer_softSkillsTitle">
+                                <h2>SOFT SKILLS:</h2>
+                            </div>
+                            <div class="thirdPage__mainContainer__container__container__competenciesContainer__softSkillsText">
+                                <h2>Leadership, Graphic Desing, Motion Desing, UX/UI Desing, Marketing, Branding, Coordination.</h2>
+                            </div>
+                            <div class="thirdPage__mainContainer__container__container__competenciesContainer_otherTitle">
+                                <h2>OTHER:</h2>
+                            </div>
+                            <div class="thirdPage__mainContainer__container__container__competenciesContainer_otherText">
+                                <h2>Figma, Premiere, After Effects, Vegas, Github, Gitpod, Trello, +8 years of experience as a Post-Producer & Animator.</h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="thirdPage__mainContainer__titlesContainer">

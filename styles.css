@@ -135,8 +135,8 @@ header{
 
 .firstPage__rightContainer__iphoneAndWindowImg{
     margin-right: 0px;
-    
 }
+
 .firstPageContainer{
     display: flex;
     width: 100%;
@@ -771,10 +771,16 @@ header{
     width: 100%;
 }
 
+.second__thirdPageWaves{
+    width: 100%;
+    z-index: 4;
+}
+
 .second__thirdPageWaves img{
     width: 100%;
     z-index: 4;
 }
+
 
 
 
@@ -923,7 +929,42 @@ header{
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 28px;
+    
 }
+
+.thirdPage__mainContainer__mainDescriptionContainer__textDescription__text div{
+    display: flex;
+    flex-direction: row;
+}
+
+.thirdPage__mainContainer__mainDescriptionContainer__textDescription__text__2{
+    
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 28px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.thirdPage__mainContainer__mainDescriptionContainer__textDescription__text__3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 28px;
+    display: flex;
+    flex-direction: row;
+}
+
+.thirdPage__mainContainer__mainDescriptionContainer__textDescription__text__1__lineBreak1{
+    display: none;
+}
+
 
 .thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer__lenguagesContainer{
     display: block;
@@ -945,26 +986,45 @@ header{
     font-size: 13px;
 }
 
-.thirdPage__mainContainer__competenciesContainer{
+  /*Competencies*/
+
+.thirdPage__mainContainer__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.thirdPage__mainContainer__container__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.thirdPage__mainContainer__container__container__spacer{
+    height: 100%;
+    width: 250px;
+}
+
+.thirdPage__mainContainer__container__container__competenciesContainer{
     background-color: #2A2F34;
     justify-content: baseline;
     display: block;
     width: 750px; 
     height: 330px;
-    margin-left: 17%;
     margin-top: 60px;
+    margin-right: 34%;
     border-radius: 21px;
     box-shadow: 0px 4px 15px 5px #00000015;
 }
 
-.thirdPage__mainContainer__competenciesContainer__title{
+.thirdPage__mainContainer__container__container__competenciesContainer__title{
     display: flex;
     justify-content: center;
     color: white;
     margin-bottom: 0px;
 }
 
-.thirdPage__mainContainer__competenciesContainer__title h2{
+.thirdPage__mainContainer__container__container__competenciesContainer__title h2{
     font-family: 'Manrope', sans-serif;
     font-weight: 700;
     font-size: 22px;
@@ -972,7 +1032,7 @@ header{
     margin-top: 32px;
 }
 
-.thirdPage__mainContainer__competenciesContainer__frontEndTitle h2{
+.thirdPage__mainContainer__container__container__competenciesContainer__frontEndTitle h2{
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
     font-size: 13px;
@@ -982,7 +1042,7 @@ header{
     margin-top:5px;
 }
 
-.thirdPage__mainContainer__competenciesContainer__frontEndText h2{
+.thirdPage__mainContainer__container__container__competenciesContainer__frontEndText h2{
     font-family: 'Manrope', sans-serif;
     font-weight: 100;
     font-size: 14px;
@@ -992,7 +1052,7 @@ header{
     margin-top:-2px;
 }
 
-.thirdPage__mainContainer__competenciesContainer_softSkillsTitle h2{
+.thirdPage__mainContainer__container__container__competenciesContainer_softSkillsTitle h2{
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
     font-size: 13px;
@@ -1002,7 +1062,7 @@ header{
     margin-top:15px;
 }
 
-.thirdPage__mainContainer__competenciesContainer__softSkillsText h2{
+.thirdPage__mainContainer__container__container__competenciesContainer__softSkillsText h2{
     font-family: 'Manrope', sans-serif;
     font-weight: 100;
     font-size: 14px;
@@ -1012,7 +1072,7 @@ header{
     margin-top: -2px;
 }
 
-.thirdPage__mainContainer__competenciesContainer_otherTitle h2{
+.thirdPage__mainContainer__container__container__competenciesContainer_otherTitle h2{
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
     font-size: 13px;
@@ -1022,7 +1082,7 @@ header{
     margin-top:15px;
 }
 
-.thirdPage__mainContainer__competenciesContainer_otherText h2{
+.thirdPage__mainContainer__container__container__competenciesContainer_otherText h2{
     font-family: 'Manrope', sans-serif;
     font-weight: 100;
     font-size: 14px;
@@ -1031,6 +1091,8 @@ header{
     margin-right: 50px;
     margin-top: -3px;
 }
+
+  /*Titles*/
 
 .thirdPage__mainContainer__titlesContainer{
     display: flex;
@@ -1233,3 +1295,4 @@ header{
     font-size: 30px;
     margin-top: 17px;
 }
+
