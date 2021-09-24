@@ -11,9 +11,6 @@
         margin-left: 55px;
     }
 
-
-
-
     /*First Page*/
 
     .firstPage {
@@ -23,9 +20,6 @@
     .firstPage__rightContainer{
         margin-left: 400px;
     }
-
-
-
 
     /*waves*/
 
@@ -52,9 +46,6 @@
         display: none;
     }
 
-
-
-
     /*3rd Page*/
 
     .thirdPage__mainContainer__container__container{
@@ -75,9 +66,6 @@
 
 
 }
-
-
-
 
     /*Linebreaks big screen*/
     @media(min-width:1815px){
@@ -101,9 +89,6 @@
         height: 620px;
         margin-left: 30px;
     }
-
-
-
 
     /*waves*/
 
@@ -188,6 +173,90 @@
 
 
 @media(max-width:1200px){
+
+    /*header*/
+
+    .header__logo{
+        margin-right: 1300px;
+        margin-left: 40px;
+    }
+
+    .header__container{
+        position: absolute;
+        display: flex;
+        flex-direction: column-reverse;
+        right: 50px;
+        top: 0px;
+    }
+
+    .header__container a{
+        margin-top: 10px;
+    }
+
+    .header__container button{
+        margin-bottom: 200px;
+    }
+
+    /*first page*/
+
+    .firstPage {
+        height: 580px;
+    }
+
+    .firstPage__aboutMeButtonContainer{
+        justify-content: flex-end;
+        margin-top: 100px;
+    }
+
+    /*separator*/
+    .firstPageContainer{
+        display: none;
+    }
+
+    .firstPage__aboutMeButtonContainer img{
+        margin-right: 30px;
+    }
+
+    .firstPage__leftContainer{
+        width: 81%;
+        height: 620px;
+        margin-left: 50px;
+    }
+
+    .firstPage__leftContainer__container__titleContainer h1{
+        font-size: 50px;
+        margin-right: 30px;
+    }
+
+    .firstPage__leftContainer__container__subtitleContainer{
+        width: 97%;
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    .firstPage__leftContainer__container__subtitleContainer h2{
+        font-size: 19px;
+    }
+
+    .firstPage__leftContainer__container__buttonContainer{
+        margin-top: 55px;
+    }
+
+    .firstPage__rightContainer{
+        display: none;
+    }
+
+    /*secont page*/
+
+    .secondPageColumn{
+        margin-top: 950px;
+    }
+
+    /*waves*/
+
+    .second__thirdPageWaves{
+        margin-top: 4560px;
+    }
 
     /*third page*/
 
