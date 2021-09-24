@@ -1,4 +1,5 @@
 @media(min-width:1900px){
+
     /*header*/
 
     header{
@@ -56,7 +57,6 @@
 
     /*3rd Page*/
 
-
     .thirdPage__mainContainer__container__container{
         width: 100%;
         display: flex;
@@ -79,8 +79,7 @@
 
 
 
-    /*Linebreaks*/
-
+    /*Linebreaks big screen*/
     @media(min-width:1815px){
         .thirdPage__mainContainer__mainDescriptionContainer__textDescription__text__1 br{
             display: none;
@@ -93,16 +92,19 @@
 
 
 
-    @media(max-width:1900px){
-   /*3rd Page*/
-
-
-}
-
-
-
-
 @media(max-width:1500px){
+
+    /*1st Page*/
+
+    .firstPage__leftContainer{
+        width: 515px;
+        height: 620px;
+        margin-left: 30px;
+    }
+
+
+
+
     /*waves*/
 
     .second__thirdPageWaves{
@@ -114,6 +116,113 @@
         height: 200px;
     }
 
+
+
+
+    /*2nd Page*/
+
+    #carrusel {
+        width: 690px;
+    }
+     
+    .carrusel {
+        margin-left: 50px;
+    }
+
+    .carrusel>div {
+        margin-right: 55px;
+    }
+
+    .right-arrow{
+        margin-top: 250px
+    }
+    
+    .right-arrow img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .left-arrow{
+        margin-top: 250px
+    }
+    
+    .left-arrow img{
+        width: 120px;
+        height: 120px;
+    }
+
+
+
+
     /*3rd Page*/
-    /*750px*/
+
+    .thirdPage__mainContainer__container__container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .thirdPage__mainContainer__container__container__spacer{
+        display: none;
+    }
+
+    .thirdPage__mainContainer__container__container__competenciesContainer{
+        margin-right: 0px;
+    }
+
+    .thirdPage__backgroundContainer__secondImageTablet{
+        display: none;
+    }
+
+    .thirdPage__mainContainer__mainDescriptionContainer__textDescription__text__1 br{
+        display: none;
+    }
+    .thirdPage__mainContainer__mainDescriptionContainer__textDescription__text__1{
+        text-align: justify;
+    }
+    
+}
+
+
+
+
+@media(max-width:1200px){
+
+    /*third page*/
+
+    .thirdPage__mainContainer__titlesContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .thirdPage__mainContainer__titlesContainer__mainContainer{
+        background-color: #2A2F34;
+        justify-content: center;
+        width: 678px;
+        height: 517px;
+        border-radius: 21px;
+        margin-top: 150px;
+        box-shadow: 0px 4px 15px 5px #00000015;
+    }
+
+    .thirdPage__mainContainer__titlesContainer__leftArrowContainer{
+        margin-top: 360px;
+    }
+    
+    .thirdPage__mainContainer__titlesContainer__leftArrowContainer img{
+
+        width: 120px;
+        height: 120px;
+    }
+
+    .thirdPage__mainContainer__titlesContainer__rigthArrowContainer{
+        margin-top: 360px
+    }
+    
+    .thirdPage__mainContainer__titlesContainer__rigthArrowContainer img{
+        width: 120px;
+        height: 120px;
+    }
+    
 }
