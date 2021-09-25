@@ -117,11 +117,11 @@
         </div>
 
 
-        <!--2nd page proyects column-->
+        <!--2nd page projects column-->
         <div class="secondPageColumn">
             <div class="secondPageColumn__behendProyectContainer">
                 <div class="secondPageColumn__behendProyectContainer__container">
-                    <img src="assets/second_page_behend_background_image.png" alt="">
+                    <img class="secondPageColumn__behendProyectContainer__container__backgroundImage" src="assets/second_page_behend_background_image.png" alt="">
                     <div class="secondPageColumn__behendProyectContainer__containerIcon">
                         <div class="secondPageColumn__behendProyectContainer__containerIcon__icon">
                             <img src="assets/second_page_behend_proyect_icon_image.png" alt="">
@@ -140,7 +140,7 @@
             </div>
             <div class="secondPageColumn__mblogProyectContainer">
                 <div class="secondPageColumn__mblogProyectContainer__container">
-                    <img src="assets/second_page_mblog_background_image.png" alt="">
+                    <img class="secondPageColumn__mblogProyectContainer__container__backgroundImage" src="assets/second_page_mblog_background_image.png" alt="">
                     <div class="secondPageColumn__mblogProyectContainer__containerIcon">
                         <div class="secondPageColumn__mblogProyectContainer__containerIcon__icon">
                             <img src="assets/second_page_mblog_proyect_icon_image.png" alt="">
@@ -161,7 +161,7 @@
             </div>
             <div class="secondPageColumn__notasticProyectContainer">
                 <div class="secondPageColumn__notasticProyectContainer__container">
-                    <img src="assets/second_page_notastic_background_image.png" alt="">
+                    <img class="secondPageColumn__notasticProyectContainer__container__backgroundImage" src="assets/second_page_notastic_background_image.png" alt="">
                     <div class="secondPageColumn__notasticProyectContainer__containerIcon">
                         <div class="secondPageColumn__notasticProyectContainer__containerIcon__icon">
                             <img src="assets/second_page_notastic_proyect_icon_image.png" alt="">
@@ -182,7 +182,7 @@
             </div>
             <div class="secondPageColumn__protompanyProyectContainer">
                 <div class="secondPageColumn__protompanyProyectContainer__container">
-                    <img src="assets/second_page_protompany_background_image.png" alt="">
+                    <img class="secondPageColumn__protompanyProyectContainer__container__backgroundImage" src="assets/second_page_protompany_background_image.png" alt="">
                     <div class="secondPageColumn__protompanyProyectContainer__containerIcon">
                         <div class="secondPageColumn__protompanyProyectContainer__containerIcon__icon">
                             <img src="assets/second_page_protompany_proyect_icon_image.png" alt="">
@@ -214,7 +214,10 @@
                     <img src="assets/second_page_otherProyects_leftArrow.png" />
                 </a>
                 <div class="secondPageColumn__otherProyectsContainer__carousel__leftGradient">
-                    <img src="assets/left_gradient.svg" alt="">
+                    <picture>
+                        <source srcset="assets/left_gradient_media950px.svg" media="(max-width: 950px)">
+                        <img src="assets/left_gradient.svg" alt="">
+                    </picture>
                 </div>
                 <div id="carrusel">
                     <div class="carrusel">
@@ -282,7 +285,7 @@
                                         </a>
                                     </div>
                                 </div>
-                            </div>>
+                            </div>
                          </div>
                          <div class="product" id="product_3">
                             <div class="productThree_container">
@@ -344,7 +347,10 @@
                      <img src="assets/second_page_otherProyects_rigthArrow.png" />
                 </a>
                 <div class="secondPageColumn__otherProyectsContainer__carousel__rigthGradient">
-                    <img src="assets/rigth_gradient.svg" alt="">
+                    <picture>
+                        <source srcset="assets/rigth_gradient_media950px.svg" media="(max-width: 950px)">
+                        <img src="assets/rigth_gradient.svg" alt="">
+                    </picture>
                 </div>
                 </div>
         </div>
@@ -398,16 +404,8 @@
                             <h2 class="thirdPage__mainContainer__mainDescriptionContainer__textDescription__title__dot">.</h2>
                         </div>
                         <div class="thirdPage__mainContainer__mainDescriptionContainer__textDescription__text">
-                            <p2 class="thirdPage__mainContainer__mainDescriptionContainer__textDescription__text__1" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi! my name is Andrés, I’m a junior Mobile & web Frontend Developer with
-over 2 years of experience, software has always been my passion, I have a long 
-journey in Design, Animation and Post-Production. Now I’ve been dedicating time 
-to gain proficiency in all intricacies of Frontend development in order to better 
-myself as a developer and problem solver. I am competent to create clean and 
-functional websites and applications with <br> 
-it’s Branding and Graphic Design as well as taking it’s art <br>
- to code, I have solid leadership skills to mentor, guide <br>
-  others in their journey, I really love working with people <br>
-   and having always new challenges to reach <br> and helping everybody to make their <br> dreams come true.
+                            <p2 class="thirdPage__mainContainer__mainDescriptionContainer__textDescription__text__1" >
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi! my name is Andrés, I’m a junior Mobile & web Frontend Developer with over 2 years of experience, software has always been my passion, I have a long journey in Design, Animation and Post-Production. Now I’ve been dedicating time to gain proficiency in all intricacies of Frontend development in order to better myself as a developer and problem solver. I am competent to create clean and functional websites and applications with <br> it’s Branding and Graphic Design as well as taking it’s art <br> to code, I have solid leadership skills to mentor, guide <br> others in their journey, I really love working with people <br> and having always new challenges to reach <br> and helping everybody to make their <br> dreams come true.
                             </p2>
                         </div>
                     </div>
@@ -509,6 +507,8 @@ it’s Branding and Graphic Design as well as taking it’s art <br>
         </div>
     </footer>
 </body>
+
+<!--Jquery Script-->
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 <script>
 var current = 0;

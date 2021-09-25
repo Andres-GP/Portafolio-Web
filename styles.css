@@ -548,8 +548,11 @@ header{
     display: flex;
     flex-direction: row;
     position: absolute;
-    width: 880px;
-    height: 177px;
+    width: 882px;
+    height: 178px;
+    margin-right: -1px;
+    margin-left: -1px; 
+    margin-bottom: -1px; /*red*/
     background-color: white;
     border-radius: 25px;
     color: #A1A1A1;
@@ -560,8 +563,11 @@ header{
     display: flex;
     flex-direction: row;
     position: absolute;
-    width: 880px;
-    height: 177px;
+    width: 882px;
+    height: 178px;
+    margin-right: -1px;
+    margin-left: -1px; 
+    margin-bottom: -1px;
     background-color: white;
     border-radius: 25px;
     color: #A1A1A1;
@@ -572,8 +578,11 @@ header{
     display: flex;
     flex-direction: row;
     position: absolute;
-    width: 880px;
-    height: 177px;
+    width: 882px;
+    height: 178px;
+    margin-right: -1px;
+    margin-left: -1px; 
+    margin-bottom: -1px;
     background-color: white;
     border-radius: 25px;
     color: #A1A1A1;
@@ -584,8 +593,11 @@ header{
     display: flex;
     flex-direction: row;
     position: absolute;
-    width: 880px;
-    height: 177px;
+    width: 882px;
+    height: 178px;
+    margin-right: -1px;
+    margin-left: -1px; 
+    margin-bottom: -1px;
     background-color: white;
     border-radius: 25px;
     color: #A1A1A1;
@@ -737,6 +749,7 @@ header{
 
 .left-arrow{
     margin-top: 250px;
+    margin-bottom: auto;
 }
 
 .left-arrow img{
@@ -825,11 +838,13 @@ header{
 .productZero_container__description{
     position: absolute;
     display: flex;
-    width: 270px;
+    width: 272px;
+    margin-left: -1px;
+    margin-right: -1px;
     height: 270px;
     background-color: white;
     border-radius: 10px;
-    margin-top: 230px;
+    margin-top: 235px;
     z-index: 2;
 }
 
@@ -892,11 +907,13 @@ header{
 .productOne_container__description{
     position: absolute;
     display: flex;
-    width: 270px;
+    width: 272px;
+    margin-left: -1px;
+    margin-right: -1px;
     height: 270px;
     background-color: white;
     border-radius: 10px;
-    margin-top: 230px;
+    margin-top: 235px;
     z-index: 2;
 }
 
@@ -959,11 +976,13 @@ header{
 .productTwo_container__description{
     position: absolute;
     display: flex;
-    width: 270px;
+    width: 272px;
+    margin-left: -1px;
+    margin-right: -1px;
     height: 270px;
     background-color: white;
     border-radius: 10px;
-    margin-top: 230px;
+    margin-top: 235px;
     z-index: 2;
 }
 
@@ -997,6 +1016,7 @@ header{
 
 .right-arrow{
     margin-top: 250px;
+    margin-bottom: auto;
 }
 
 .right-arrow img{
@@ -1012,7 +1032,7 @@ header{
     border-radius: 10px;
 }
 
-.secondPageColumn__otherProyectsContainer__carousel__rigthGradient img{
+.secondPageColumn__otherProyectsContainer__carousel__rigthGradient picture img{
     border-radius: 10px;
 }
 
@@ -1180,8 +1200,7 @@ header{
     font-size: 16px;
     margin-top: 0px;
     margin-bottom: 0px;
-    line-height: 28px;
-    
+    line-height: 28px; 
 }
 
 .thirdPage__mainContainer__mainDescriptionContainer__textDescription__text div{
