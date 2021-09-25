@@ -290,54 +290,24 @@
                          <div class="product" id="product_3">
                             <div class="productThree_container">
                                 <div class="productThree_container__background">
-                                    <img src="assets/">
+                                    <!--<img src="assets/">-->
                                </div>
                                <div class="productThree_container__icon">
                                    <img src="" alt="">
                                </div>
                                 <div class="productThree_container__description">
-                                    <a href="">
-                                       <img src="" alt="">
-                                    </a>
-                                    <a href="">
-                                        <img src="" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                         </div>
-                         <div class="product" id="product_4">
-                            <div class="productFour_container">
-                                <div class="productFour_container__background">
-                                    <img src="assets/">
-                               </div>
-                               <div class="productFour_container__icon">
-                                   <img src="" alt="">
-                               </div>
-                                <div class="productFour_container__description">
-                                    <a href="">
-                                       <img src="" alt="">
-                                    </a>
-                                    <a href="">
-                                        <img src="" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                         </div>
-                         <div class="product" id="product_5">
-                            <div class="productFive_container">
-                                <div class="productFive_container__background">
-                                    <img src="assets/">
-                               </div>
-                               <div class="productFive_container__icon">
-                                   <img src="" alt="">
-                               </div>
-                                <div class="productFive_container__description">
-                                    <a href="">
-                                       <img src="" alt="">
-                                    </a>
-                                    <a href="">
-                                        <img src="" alt="">
-                                    </a>
+                                    <div class="productThree_container__description__text">
+                                        <img src="assets/coming_soon.svg" alt="">
+                                        <!--<h2></h2>-->
+                                    </div>
+                                    <!--<div class="productThree_container__description__iconLinks">
+                                        <a href="">
+                                            <img src="" alt="">
+                                         </a>
+                                         <a href="">
+                                             <img src="" alt="">
+                                         </a>
+                                    </div>-->
                                 </div>
                             </div>
                          </div>
@@ -438,14 +408,29 @@
                         </div>
                     </div>
                 </div>
-                <div class="thirdPage__mainContainer__titlesContainer">
-                    <div class="thirdPage__mainContainer__titlesContainer__leftArrowContainer">
-                        <img src="assets/second_page_otherProyects_leftArrow.png" alt="">
+                <div class="thirdPage__mainContainer__titlesContainer__carousel">
+                    <a href="#" class="left-arrow1">
+                        <img src="assets/second_page_otherProyects_leftArrow.png" />
+                    </a>
+                    <div id="carrusel1">
+                        <div class="carrusel1">
+                            <div class="title" id="title_0">
+                                <img src="assets/firebase_title.jpg">
+                            </div>
+                            <div class="title" id="title_1">
+                                <img src="assets/android_title.jpg">                            
+                            </div>
+                            <div class="title" id="title_2">
+                                <img src="assets/multiplataforma_title.jpg">                                
+                            </div>
+                            <div class="title" id="title_3">
+                                <img src="assets/coming_soon.svg">                               
+                            </div>
+                        </div>
                     </div>
-                    <div class="thirdPage__mainContainer__titlesContainer__mainContainer"></div>
-                    <div class="thirdPage__mainContainer__titlesContainer__rigthArrowContainer">
-                        <img src="assets/second_page_otherProyects_rigthArrow.png" alt="">
-                    </div>
+                    <a href="#" class="right-arrow1">
+                        <img src="assets/second_page_otherProyects_rigthArrow.png" />
+                    </a>
                 </div>
                 <div class="thirdPage__mainContainer__contactContainer">
                     <div class="thirdPage__mainContainer__contactContainer__titleContainer">
@@ -515,7 +500,7 @@ var current = 0;
 var imagenes = new Array();
  
 $(document).ready(function() {
-    var numImages = 6;
+    var numImages = 4;
     if (numImages <= 3) {
         $('.right-arrow').css('display', 'none');
         $('.left-arrow').css('display', 'none');
@@ -558,4 +543,52 @@ $(document).ready(function() {
     }); 
  });
 </script>
+<script>
+    var current = 0;
+    var images = new Array();
+     
+    $(document).ready(function() {
+        var numImage = 6;
+        if (numImage <= 3) {
+            $('.right-arrow1').css('display', 'none');
+            $('.left-arrow1').css('display', 'none');
+        }
+     
+        $('.left-arrow1').on('click',function() {
+            if (current > 0) {
+                current = current - 1;
+            } else {
+                current = numImage - 3;
+            }
+     
+            $(".carrusel1").animate({"left": -($('#title_'+current).position().left)}, 600);
+     
+            return false;
+        });
+     
+        $('.left-arrow1').on('hover', function() {
+            $(this).css('opacity','0.5');
+        }, function() {
+            $(this).css('opacity','1');
+        });
+     
+        $('.right-arrow1').on('hover', function() {
+            $(this).css('opacity','0.5');
+        }, function() {
+            $(this).css('opacity','1');
+        });
+     
+        $('.right-arrow1').on('click', function() {
+            if (numImage > current + 3) {
+                current = current+1;
+            } else {
+                current = 0;
+            }
+     
+            $(".carrusel1").animate({"left": -($('#title_'+current).position().left)}, 600);
+     
+            return false;
+        }); 
+     });
+    </script>
 </html>
