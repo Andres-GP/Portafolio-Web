@@ -552,7 +552,7 @@ header{
     height: 178px;
     margin-right: -1px;
     margin-left: -1px; 
-    margin-bottom: -1px; /*red*/
+    margin-bottom: -1px; 
     background-color: white;
     border-radius: 25px;
     color: #A1A1A1;
@@ -1048,6 +1048,11 @@ header{
     margin-bottom: auto;
 }
 
+.right-arrow img{
+    width: 190px;
+    height: 190px;
+}
+
 .productThree_container__description{
     position: absolute;
     display: flex;
@@ -1084,11 +1089,6 @@ header{
     width: 270px;
     height: 500px;
     z-index: 1;
-}
-
-.right-arrow img{
-    width: 190px;
-    height: 190px;
 }
 
 .secondPageColumn__otherProyectsContainer__carousel__rigthGradient{
@@ -1443,6 +1443,7 @@ header{
  
 .left-arrow1 {
     margin-top: 250px;
+    margin-bottom: auto;
 }
  
 .left-arrow1 img{
@@ -1471,9 +1472,9 @@ header{
  
 .carrusel1>div {
     float: left;
+    width: 800px;
     height: 630px;
     margin-right: 5px;
-    width: 800px;
     text-align:center;
     margin-top: 20px;
     margin-left: 20px;
@@ -1510,6 +1511,7 @@ header{
 }
 
 .right-arrow1 {
+    margin-bottom: auto;
     margin-top: 250px;
 }
 
@@ -1518,33 +1520,6 @@ header{
     height: 190px;
 }
 
-/*.thirdPage__mainContainer__titlesContainer__leftArrowContainer{
-    margin-top: 370px;
-}
-
-.thirdPage__mainContainer__titlesContainer__leftArrowContainer img{
-    width: 190px;
-    height: 190px;
-}
-
-.thirdPage__mainContainer__titlesContainer__mainContainer{
-    background-color: #2A2F34;
-    justify-content: center;
-    width: 778px;
-    height: 617px;
-    border-radius: 21px;
-    margin-top: 150px;
-    box-shadow: 0px 4px 15px 5px #00000015;
-}
-
-.thirdPage__mainContainer__titlesContainer__rigthArrowContainer{
-    margin-top: 370px;
-}
-
-.thirdPage__mainContainer__titlesContainer__rigthArrowContainer img{
-    width: 190px;
-    height: 190px;
-}*/
 
 .thirdPage__mainContainer__contactContainer{
     display: block;
