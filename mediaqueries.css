@@ -1242,10 +1242,13 @@
         z-index: 10;
         border-radius: 12px;
         box-shadow: 0px 2px 10px 0px #00000031;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
-    .right-arrow img{
-        height: 50px;
+    .right-arrow picture img{
+        height: 11px;
         width: auto;
     }
 
@@ -1260,10 +1263,13 @@
         z-index: 10;
         border-radius: 12px;
         box-shadow: 0px 2px 10px 0px #00000031;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
-    .left-arrow img{
-        height: 50px;
+    .left-arrow picture img{
+        height: 11px;
         width: auto;
     }
 
