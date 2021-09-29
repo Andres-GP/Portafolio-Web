@@ -1088,7 +1088,7 @@
     #title_3 img{
         width: 140px;
         height: auto;
-        margin-top: 100px;
+        margin-top: 135px;
     }
 
     #title_3{
@@ -1232,37 +1232,39 @@
     }
 
     .right-arrow{
-        top: 1321px;
+        top: 1320px;
         align-self: center;
         margin-left: 130px;
         position: absolute;
-        background-color: white;
+        background-color: #ffcf22;
         width: 120px;
-        height: 25px;
+        height: 27px;
         z-index: 10;
-        border-radius: 10px;
-        box-shadow: 0px 2px 12px 0px #00000028;
+        border-radius: 12px;
+        box-shadow: 0px 2px 10px 0px #00000031;
     }
     
     .right-arrow img{
-        display: none;
+        height: 50px;
+        width: auto;
     }
 
     .left-arrow{
-        top: 1321px;
+        top: 1320px;
         align-self: center;
         margin-right: 130px;
         position: absolute;
         width: 120px;
-        height: 25px;
-        background-color: white;
+        height: 27px;
+        background-color: #e24d42;
         z-index: 10;
-        border-radius: 10px;
-        box-shadow: 0px 2px 12px 0px #00000028;
+        border-radius: 12px;
+        box-shadow: 0px 2px 10px 0px #00000031;
     }
     
     .left-arrow img{
-        display: none;
+        height: 50px;
+        width: auto;
     }
 
 }
