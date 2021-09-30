@@ -82,6 +82,14 @@
 
 @media(max-width:1500px){
 
+    /*Menu*/
+
+    .menuContainer__menuPicker{
+        right: -36%;
+        width: 35%;
+    }
+    
+
     /*1st Page*/
 
     .firstPage__leftContainer{
@@ -265,6 +273,13 @@
 
 @media(max-width:1200px){
 
+    /*Menu*/
+
+    .menuContainer__menuPicker{
+        right: -37%;
+        width: 35%;
+    }
+
     /*header*/
 
     .header__logo{
@@ -276,7 +291,7 @@
         position: absolute;
         display: flex;
         flex-direction: column-reverse;
-        right: 50px;
+        right: 30px;
         top: 0px;
     }
 
@@ -899,13 +914,20 @@
 
 @media(max-width:830px){
 
+    /*Menu*/
+
+    .menuContainer__menuPicker{
+        right: -43.5%;
+        width: 40%;
+    }
+
     /*Header*/
 
     .header__container{
         position: absolute;
         display: flex;
         flex-direction: column-reverse;
-        right: 1%;
+        right: -1%;
         top: 0px;
     }
 
@@ -1147,6 +1169,13 @@
 
 @media(max-width:570px){
 
+    /*Menu*/
+
+    .menuContainer__menuPicker{
+        right: -105%;
+        width: 100%;
+    }
+
     /*Header*/
 
     .header__logo{
@@ -1158,7 +1187,7 @@
         position: absolute;
         display: flex;
         flex-direction: column-reverse;
-        right: 10px;
+        right: -10px;
         top: 0px;
     }
 
@@ -1283,13 +1312,20 @@
 
 @media(max-width:450px){
 
+    /*Menu*/
+
+    .menuContainer__menuPicker{
+        right: -107%;
+        width: 100%;
+    }
+
     /*Header*/
     
     .header__container{
         position: absolute;
         display: flex;
         flex-direction: column-reverse;
-        right: -10px;
+        right: -20px;
         top: 0px;
     }
 
@@ -1455,6 +1491,17 @@
 
 
 @media(max-width:390px){
+
+    /*Menu*/
+
+    .menuContainer__menuPicker{
+        right: -109%;
+        width: 100%;
+    }
+
+    .menuContainer__menuPicker li a{
+        margin-right: 20px;
+    }
 
     /*Header*/
 
