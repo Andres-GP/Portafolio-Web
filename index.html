@@ -42,15 +42,27 @@
             <a href="https://twitter.com/pedrito_uwu">
                 <img class="header__container__twitterIcon" alt="" src="assets/header_twitter_icon.svg"></img>
             </a>
-            <a href="https://www.linkedin.com/in/andres-felipe-garcia-pedreros-8a562220a/">
+            <a id="header__container__a"href="https://www.linkedin.com/in/andres-felipe-garcia-pedreros-8a562220a/">
                 <img class="header__container__linkedinicon" alt="" src="assets/header_linkedIn_icon.svg"></img>
             </a>
-            <button class="header__container__menuButton">
-                    <img src="assets/header_menu_icon.svg" alt="">
-            </button>
+            <div id="openMenuButton" class="header__container__container">
+                <button class="header__container__container__menuButton">
+                    <img  src="assets/header_menu_icon.svg" alt="">
+                </button>
+            </div>
         </div>  
     </header>
     <main>
+        <div id="menu" class="menuContainer">
+            <div id="menu-shade" class="menuContainer__shade"></div>
+            <ul id="menu-Picker" class="menuContainer__menuPicker">
+                <li><img id="closeMenuButton" src="assets/header_menu_icon.svg" alt=""></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
 
 
 
@@ -64,7 +76,7 @@
                             Ideas based in purpose.</h1>
                     </div>
                     <div class="firstPage__leftContainer__container__subtitleContainer">
-                        <h2>I enjoy to develop great ideas based in wisdom and intelligence, I like to explore new and open possibilities, I love to develop my own solutions and to put a lot of effort in every new product I work in, I’m willing to give amazing ideas and take them to live in little time, fast as thought; you can put all your confidence in my commitment, professionalism and knowledge, feel free to contact me, I’m always looking forward for any new collaborations and deals.</h2>
+                        <h2>I enjoy to develop great ideas based on wisdom and intelligence, I like to explore new and open possibilities, I love to develop my own solutions and to put a lot of effort in every new product I work in, I’m willing to give amazing ideas and take them to live in little time, fast as thought; you can put all your confidence in my commitment, professionalism and knowledge, feel free to contact me, I’m always looking forward for any new collaborations and deals.</h2>
                     </div>
                 </div>
                 <div class="firstPage__leftContainer__container__buttonContainer">
@@ -524,6 +536,7 @@
     </footer>
 </body>
 
+<script src="menu.js"></script>
 <script src="index.js"></script>
 
 <!--Jquery Script-->
