@@ -375,12 +375,14 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    border-radius: 20px;
 }
 
 .secondPageColumn__behendProyectContainer__containerIcon__icon img{
     width: 83px;
     height: 83px;
     margin-left: 100px;
+    border-radius: 20px;
 }
 
 .secondPageColumn__behendProyectContainer__container__description__linksContainer a img{
@@ -422,17 +424,19 @@ header{
 .secondPageColumn__mblogProyectContainer__containerIcon__icon{
     z-index: 4;
     width: 880px;
-    background-color: transparent;
     height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    background-color: transparent;
 }
 
 .secondPageColumn__mblogProyectContainer__containerIcon__icon img{
     width: 83px;
     height: 83px;
     margin-left: 100px;
+    background-color: transparent;
+    border-radius: 20px;
 }
 
 .secondPageColumn__mblogProyectContainer__container__description__linksContainer a img{
@@ -485,6 +489,8 @@ header{
     width: 83px;
     height: 83px;
     margin-left: 100px;
+    border-radius: 20px;
+    background-color: red;
 }
 
 .secondPageColumn__notasticProyectContainer__container__description__linksContainer a img{
@@ -537,6 +543,7 @@ header{
     width: 83px;
     height: 83px;
     margin-left: 100px;
+    border-radius: 20px;
 }
 
 .secondPageColumn__protompanyProyectContainer__container__description__linksContainer a img{
