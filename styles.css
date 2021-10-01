@@ -7,6 +7,10 @@
 
 
 
+*{
+    scroll-behavior: smooth;
+}  
+
 body{
     background-color: #212529;
     width: 100%;
@@ -47,7 +51,7 @@ header{
 }
 
 .header__container__container__menuButton{
-    margin-left: 5px;
+    margin-left: 15px;
     background-color: transparent;
     border: none;
     z-index: 999;
@@ -253,7 +257,7 @@ header{
     position:absolute;
     width: 1px;
     background-color: #3A4147;
-    height: 813.5px; 
+    height: 810.5px; 
     top: 0;
 }
 
@@ -267,7 +271,8 @@ header{
     margin-top: 70px;
 }
 
-.firstPage__aboutMeButtonContainer img:hover{
+
+.firstPage__aboutMeButtonContainer a img:hover{
     cursor: pointer;
 
 }

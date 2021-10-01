@@ -1,19 +1,19 @@
-<svg width="152" height="155" viewBox="0 0 152 155" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g filter="url(#filter0_d)">
-<rect x="8.61963" y="4.10822" width="135.38" height="138.318" rx="67.6902" fill="#18191B"/>
+<svg width="137" height="139" viewBox="0 0 137 139" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g filter="url(#filter0_i)">
+<path d="M136.38 67.6902C136.38 30.3059 106.074 0 68.69 0C31.3058 0 1 30.3059 1 67.6902V70.6278C1 108.012 31.3058 138.318 68.69 138.318C106.074 138.318 136.38 108.012 136.38 70.6278V67.6902Z" fill="#18191B"/>
 </g>
-<rect x="12.4509" y="8.57837" width="127.59" height="129.505" rx="63.7948" fill="url(#pattern0)"/>
-<rect x="12.5371" y="8.65814" width="127.886" height="134.146" rx="63.9429" fill="#18191B" fill-opacity="0.27"/>
+<path d="M68.6265 4.47021H68.6261C33.3932 4.47021 4.8313 33.0321 4.8313 68.265V70.1804C4.8313 105.413 33.3932 133.975 68.6261 133.975H68.6265C103.859 133.975 132.421 105.413 132.421 70.1804V68.265C132.421 33.0321 103.859 4.47021 68.6265 4.47021Z" fill="url(#pattern0)"/>
+<path d="M68.8606 4.5498H68.8604C33.5457 4.5498 4.91748 33.178 4.91748 68.4927V74.7529C4.91748 110.068 33.5457 138.696 68.8604 138.696H68.8606C104.175 138.696 132.803 110.068 132.803 74.7529V68.4927C132.803 33.178 104.175 4.5498 68.8606 4.5498Z" fill="#18191B" fill-opacity="0.27"/>
 <defs>
-<filter id="filter0_d" x="0.619629" y="0.108215" width="151.38" height="154.318" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_i" x="1" y="0" width="135.38" height="142.318" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
 <feGaussianBlur stdDeviation="4"/>
-<feComposite in2="hardAlpha" operator="out"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
 </filter>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(-0.0304878 -0.177416) scale(0.00085874)"/>

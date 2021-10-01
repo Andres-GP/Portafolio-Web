@@ -19,7 +19,7 @@
         <div class="firstPageContainer__separator"></div>
     </div>
     <div class="firstPage__aboutMeButtonContainer">
-        <img src="assets/first_page_photo.svg" alt="">
+        <a href="#third-page"><img src="assets/first_page_photo.svg" alt=""></a>
     </div>
     <div class="firstPage__separator"></div>
 
@@ -27,7 +27,7 @@
 
 
     <!--Header-->
-    <header>
+    <header id="header">
         <img class="header__logo" alt="" src="assets/header_logo.svg" >
          <div class="header__container">
             <a href="https://github.com/Andres-GP">
@@ -57,10 +57,10 @@
             <div id="menu-shade" class="menuContainer__shade"></div>
             <ul id="menu-Picker" class="menuContainer__menuPicker">
                 <li><img id="closeMenuButton" src="assets/header_menu_icon.svg" alt=""></li>
-                <li><a href="">Home</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">about</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#second-page">Projects</a></li>
+                <li><a href="#third-page">About Me</a></li>
+                <li><a href="#contact-page">Contact</a></li>
             </ul>
         </div>
 
@@ -79,9 +79,11 @@
                         <h2>I enjoy to develop great ideas based on wisdom and intelligence, I like to explore new and open possibilities, I love to develop my own solutions and to put a lot of effort in every new product I work in, I’m willing to give amazing ideas and take them to live in little time, fast as thought; you can put all your confidence in my commitment, professionalism and knowledge, feel free to contact me, I’m always looking forward for any new collaborations and deals.</h2>
                     </div>
                 </div>
-                <div class="firstPage__leftContainer__container__buttonContainer">
-                    <button class="firstPage__leftContainer__container__buttonContainer__button"> Get started!!</button>
-                </div>
+                    <div class="firstPage__leftContainer__container__buttonContainer">
+                        <a href="#second-page">
+                            <button class="firstPage__leftContainer__container__buttonContainer__button"> Get started!!</button>
+                        </a>
+                    </div>
             </div>
             <div class="firstPage__rightContainer">
                 <picture class="firstPage__rightContainer__iphoneAndWindowImg">
@@ -100,7 +102,7 @@
 
         <!--2nd Page-->
         <div class="secondPage">
-            <div class="secondPage__firstImageTablet">
+            <div class="secondPage__firstImageTablet" id="second-page">
                 <img src="assets/second_page_first_tablet.svg" alt="">
             </div>
             <div class="secondPage__titleContainer">
@@ -370,8 +372,10 @@
                 <img src="assets/third_page_waves.svg" alt="waves">
             </picture>
         </div>
+
+        <!--3rd page-->
         <div class="thirdPage">
-            <div class="thirdPage__backgroundContainer">
+            <div class="thirdPage__backgroundContainer" id="third-page">
                 <div class="thirdPage__backgroundContainer__firstImageTablet">
                     <img src="assets/third_page_firstTablet.svg" alt="">
                 </div>
@@ -386,11 +390,7 @@
                 </div>
             </div>
 
-
-
-
-            <!--3rd page-->
-            <div class="thirdPage__mainContainer">
+            <div class="thirdPage__mainContainer" >
                 <div class="thirdPage__mainContainer__mainDescriptionContainer">
                     <div class="thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer">
                         <div class="thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer__profileImage">
@@ -475,7 +475,9 @@
                         </picture>
                     </a>
                 </div>
-                <div class="thirdPage__mainContainer__contactContainer">
+
+                <!--Contact Page-->
+                <div class="thirdPage__mainContainer__contactContainer" id="contact-page">
                     <div class="thirdPage__mainContainer__contactContainer__titleContainer">
                         <div class="thirdPage__mainContainer__contactContainer__titleContainer__text">
                             <h2 class="thirdPage__mainContainer__contactContainer__titleContainer__text__firstPart">Let</h2>
@@ -487,7 +489,7 @@
                     <div class="thirdPage__mainContainer__contactContainer__iconContainer">
                         <img src="assets/header_logo.svg" alt="">
                     </div>
-                    <div class="thirdPage__mainContainer__contactContainer__container">
+                    <div class="thirdPage__mainContainer__contactContainer__container" >
                         <div class="thirdPage__mainContainer__contactContainer__container__centerContainer">
                             <div class="thirdPage__mainContainer__contactContainer__container__centerContainer__leftContainer">
                                 <h2>I’m open to creative minds and collaborations!</h2>
