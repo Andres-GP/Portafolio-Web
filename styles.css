@@ -6,19 +6,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap');
 
 
-
 *{
     scroll-behavior: smooth;
 }  
 
-body{
+#body{
     background-color: #212529;
     width: 100%;
     margin: 0px;
 }
 
 
+h1 {
+    font-weight: bold !important;
+    font-size: 44px !important;
+    font-family: 'Inter', sans-serif !important;
+}
 
+h2 {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+}
 
 /*header*/
 
@@ -145,14 +154,10 @@ header{
     position: fixed;
     z-index: 30;
     top: -15px;
-    bottom: -100px;
-    right: -35%;
+    right: -33%;
     width: 35%;
-    height: 100vh;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    margin-top: 15px;
+    height: 110%;
     cursor: default;
     background-color: #18191B;
     list-style: none;
@@ -224,9 +229,9 @@ header{
 }
 
 .firstPage__leftContainer__container__titleContainer h1{
-    font-size: 44px;
-    font-family: 'Inter', sans-serif;
     color: #F8F9FA;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 .firstPage__leftContainer__container__subtitleContainer{
     color: #68717A;
@@ -349,14 +354,15 @@ header{
 .secondPage__titleContainer__container__text{
     font-weight: 800;
     font-family: 'Manrope', sans-serif;
+    margin-top: 9px;
 }
 
 .secondPage__titleContainer__container__dot{
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 800;
-    font-size: 60px;
+    font-family: 'DM Sans', sans-serif !important;
+    font-weight: 800 !important;
     color: #2196F3;
-    margin-bottom: 55px;
+    font-size: 40px;
+    margin-bottom: 0px;
 }
 
 .secondPage__firstImageTablet{
@@ -488,11 +494,18 @@ header{
     border-radius: 20px;
 }
 
+.secondPageColumn__behendProyectContainer__container__backgroundImage{
+    box-shadow: 0px -4px 12px 0px #00000015;
+    border-radius: 25px;
+}
+
+
 .secondPageColumn__behendProyectContainer__containerIcon__icon img{
     width: 83px;
     height: 83px;
     margin-left: 100px;
     border-radius: 20px;
+    box-shadow: 0px 4px 6px 0px #00000035;
 }
 
 .secondPageColumn__behendProyectContainer__container__description__linksContainer a img{
@@ -513,6 +526,11 @@ header{
     justify-content: center;
     align-items: flex-end;
     box-shadow: 0 4 4 0 #000000;
+}
+
+.secondPageColumn__mblogProyectContainer__container__backgroundImage{
+    box-shadow: 0px -4px 12px 0px #00000015;
+    border-radius: 25px;
 }
 
 .secondPageColumn__mblogProyectContainer__container img{
@@ -547,6 +565,7 @@ header{
     margin-left: 100px;
     background-color: transparent;
     border-radius: 20px;
+    box-shadow: 0px 4px 6px 0px #00000035;
 }
 
 .secondPageColumn__mblogProyectContainer__container__description__linksContainer a img{
@@ -567,6 +586,11 @@ header{
     justify-content: center;
     align-items: flex-end;
     box-shadow: 0 4 4 0 #000000;
+}
+
+.secondPageColumn__notasticProyectContainer__container__backgroundImage{
+    box-shadow: 0px -4px 12px 0px #00000015;
+    border-radius: 25px;
 }
 
 .secondPageColumn__notasticProyectContainer__container img{
@@ -600,7 +624,7 @@ header{
     height: 83px;
     margin-left: 100px;
     border-radius: 20px;
-    background-color: red;
+    box-shadow: 0px 4px 6px 0px #00000035;
 }
 
 .secondPageColumn__notasticProyectContainer__container__description__linksContainer a img{
@@ -621,6 +645,11 @@ header{
     justify-content: center;
     align-items: flex-end;
     box-shadow: 0 4 4 0 #000000;
+}
+
+.secondPageColumn__protompanyProyectContainer__container__backgroundImage{
+    box-shadow: 0px -4px 12px 0px #00000015;
+    border-radius: 25px;
 }
 
 .secondPageColumn__protompanyProyectContainer__container img{
@@ -654,6 +683,7 @@ header{
     height: 83px;
     margin-left: 100px;
     border-radius: 20px;
+    box-shadow: 0px 4px 6px 0px #00000035;
 }
 
 .secondPageColumn__protompanyProyectContainer__container__description__linksContainer a img{
@@ -762,7 +792,7 @@ header{
 }
 
 .secondPageColumn__mblogProyectContainer__container__description__linksContainer{
-    margin-top: 50px;
+    margin-top: 55px;
     margin-right: 40px;
 }
 
@@ -840,7 +870,6 @@ header{
     background-color: #212529;
     border: none;
     color: #FFFFFF;
-    font-size: 15px;
     box-shadow: 0px 30px 18px 0px #D4D9E8;
     border-radius: 125px;
 }
@@ -848,14 +877,16 @@ header{
 .secondPageColumn__otherProyectsContainer__titleContainer__text{
     font-weight: 800;
     font-family: 'Manrope', sans-serif;
+    margin-top: 10px;
+    font-size: 25px;
 }
 
 .secondPageColumn__otherProyectsContainer__titleContainer__dot{
     font-family: 'DM Sans', sans-serif;
     font-weight: 800;
-    font-size: 60px;
+    font-size: 40px;
     color: #E44235;
-    margin-bottom: 68px;
+    margin-bottom: 0px;
 }
 
 .secondPageColumn__otherProyectsContainer__carousel{
@@ -969,7 +1000,7 @@ header{
     width: 170px;
     text-align: left;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 37px;
 }
 
 .productZero_container__description__text h2{
@@ -1038,7 +1069,7 @@ header{
     width: 170px;
     text-align: left;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 37px;
 }
 
 .productOne_container__description__text h2{
@@ -1108,7 +1139,7 @@ header{
     width: 170px;
     text-align: left;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 37px;
 }
 
 .productTwo_container__description__text h2{
@@ -1355,7 +1386,7 @@ header{
 .thirdPage__mainContainer__mainDescriptionContainer__textDescription__title{
     display: flex;
     font-weight: 700;
-    margin-top: 0px;
+    margin-top: 30px;
 }
 
 .thirdPage__mainContainer__mainDescriptionContainer__textDescription__title__text{
@@ -1369,12 +1400,13 @@ header{
     color: #F4BE00;
     font-family: 'DM Sans', sans-serif;
     font-weight: 800;
-    font-size: 34px;
-    margin-top: 15px;
+    font-size: 38px;
+    margin-top: -10px;
 }
 
 .thirdPage__mainContainer__mainDescriptionContainer__textDescription__text{
     color: #68717A;
+    margin-top: 10px;
 }
 
 
@@ -1495,7 +1527,7 @@ header{
     color: white;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top:5px;
+    margin-top:18px;
 }
 
 .thirdPage__mainContainer__container__container__competenciesContainer__frontEndText h2{
@@ -1505,7 +1537,7 @@ header{
     color: white;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top:-2px;
+    margin-top:11px;
 }
 
 .thirdPage__mainContainer__container__container__competenciesContainer_softSkillsTitle h2{
@@ -1515,7 +1547,7 @@ header{
     color: white;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top:15px;
+    margin-top:18px;
 }
 
 .thirdPage__mainContainer__container__container__competenciesContainer__softSkillsText h2{
@@ -1525,7 +1557,7 @@ header{
     color: white;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: -2px;
+    margin-top:11px;
 }
 
 .thirdPage__mainContainer__container__container__competenciesContainer_otherTitle h2{
@@ -1535,7 +1567,7 @@ header{
     color: white;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top:15px;
+    margin-top:18px;
 }
 
 .thirdPage__mainContainer__container__container__competenciesContainer_otherText h2{
@@ -1545,7 +1577,7 @@ header{
     color: white;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: -3px;
+    margin-top:11px;
 }
 
   /*Titles*/
@@ -1615,13 +1647,19 @@ header{
     box-shadow: 0px 34px 20px 0px #00000025;
 }
 
-#title_3{
+#title_3 img{
+    width: 800px;
+    height: 590px;
+    box-shadow: 0px 34px 20px 0px #00000025;
+}
+
+#title_39{
     background-color: #33393F;
     height: 590px;
     border-radius: 5px;
 }
 
-#title_3 img{
+#title_39 img{
     margin-top: 255px;
     width: 250px;
     height: 80px;
@@ -1666,7 +1704,7 @@ header{
     font-family: 'Work Sans', sans-serif;
     color: white;
     font-size: 72px;
-    margin-top: 85px;
+    margin-top: 2px;
 }
 
 .thirdPage__mainContainer__contactContainer__titleContainer__text__secondPart{
@@ -1677,15 +1715,16 @@ header{
 }
 
 .thirdPage__mainContainer__contactContainer__titleContainer__signe{
-    margin-top: 85px;
     font-family: 'DM Sans', sans-serif;
     color: #9341D1;
-    font-size: 72px
+    font-size: 72px;
+    margin-top: 8px;
 }
 
 .thirdPage__mainContainer__contactContainer__iconContainer img{
     width: 150;
     height: 170px;
+    margin-top: 35px;
 }
 
 .thirdPage__mainContainer__contactContainer__container{
@@ -1702,12 +1741,24 @@ header{
     margin-top: 39px;
     width: 50%;
     color: white;
+    margin-right: -15px;
+}
+
+#thirdPage__mainContainer__contactContainer__container__centerContainer__leftContainer{
+    margin-top: 39px;
+    width: 50%;
+    color: white;
 }
 
 .thirdPage__mainContainer__contactContainer__container__centerContainer__leftContainer h2{
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    width: 400px;
+    font-family: 'Inter', sans-serif !important;
+    width: bolder;
+    text-align: left;
+}
+
+#thirdPage__mainContainer__contactContainer__container__centerContainer__leftContainer h2{
+    font-family: 'Inter', sans-serif !important;
+    font-size: 19.5px;
     text-align: left;
 }
 
@@ -1733,6 +1784,7 @@ header{
     color: #68717A;
     font-size: 15px;
     font-weight: 500;
+    margin-top: 15px;
 }
 
 .thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__container_numberContact{
@@ -1740,12 +1792,15 @@ header{
     color: #68717A;
     font-size: 15px;
     font-weight: 500;
+    margin-top: 5px;
     margin-left: -1px;
 }
 
 .thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__linksIcon{
     display: flex;
     margin-left: 40px;
+    margin-top: -5px;
+    margin-bottom: -15px;
 }
 
 .thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__linksIcon__githubIcon img{
@@ -1785,12 +1840,12 @@ header{
     z-index: 30;
 }
 
-.footerContainer{
+#footerContainer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 2565px;
-    margin-bottom: 15px;
+    margin-top: 2450px;
+    margin-bottom: 30px;
     position: relative;
 }
 
@@ -1805,6 +1860,6 @@ header{
     font-family: 'Inter', sans-serif;
     color: #FCC500;
     font-size: 30px;
-    margin-top: 17px;
+    margin-top: -5px;
 }
 
