@@ -266,6 +266,17 @@
         width: 100px;
         height: 100px;
     }
+
+    /*Third Page*/
+    #thirdPage__mainContainer__titlesContainer__container{
+        margin-left: -2%;
+    }
+}
+
+@media(max-width: 1400px){
+    #thirdPage__mainContainer__titlesContainer__container{
+        margin-left: -1%;
+    }
 }
 
 
@@ -442,14 +453,13 @@
 
 
 
-
     /*Footer*/
 
     #footerContainer{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-top: 2080px;
+        margin-top: 3480px;
         margin-bottom: 30px;
         position: relative;
     }
@@ -875,12 +885,12 @@
     }
 
     
-    .thirdPage__mainContainer__contactContainer__container__centerContainer__leftContainer{
+    #thirdPage__mainContainer__contactContainer__container__centerContainer__leftContainer{
         margin-top: 0px;
-        width: 100%;
+        margin-left: -25px;
     }
     
-    .thirdPage__mainContainer__contactContainer__container__centerContainer__leftContainer h2{
+    #thirdPage__mainContainer__contactContainer__container__centerContainer__leftContainer h2{
         text-align: center;
     }
 
@@ -915,13 +925,11 @@
     /*Footer*/
 
     #footerContainer{
-        margin-top: 3020px;
+        margin-top: 3510px;
         margin-bottom: 50px;
 
     }
 }
-
-
 
 
 
@@ -1071,101 +1079,58 @@
         display: none;
     }
 
+    /*Third Page*/
+    #thirdPage__mainContainer__titlesContainer__container{
+        margin-left: -2%;
+    }
+    
+    #carouselExample1Dark{
+        height: 450px;
+        width: 562px;
+        margin-top: 15px;
+    }
+    #carouselExampleDark{
+        height: 450px;
+        width: 562px;
+        margin-top: 15px;
+    }
+
     /*Footer*/
 
-    .footerContainer{
+    #footerContainer{
+        margin-top: 3340px;
         position: sticky;
         bottom: 20px;
-
     }
 
 }
 
 @media(max-width:700px){
 
-    /*third page*/
+    /*Third Page*/
 
     /*titles*/
 
-    #carrusel1 {
-        width:410px;
-        height:340px;
-    }
-
-    .carrusel1>div {
-        float: left;
-        width:410px;
-        height:340px;
-        margin-right: 10px;
-        text-align:center;
-        margin-top: 20px;
-        margin-left: 0px;
-    }
-
-    #title_0 img{
-        width: 380px;
-        height: auto;
-    }
-
-    #title_1 img{
-        width: 380px;
-        height: auto;
+    #thirdPage__mainContainer__titlesContainer__container__schoolsContainer{
+        width: 104%;
+        height: 390px;
     }
     
-    #title_2 img{
-        width: 380px;
-        height: auto;
+    #thirdPage__mainContainer__titlesContainer__container__coursesContainer{
+        margin-top: 30px;
+        width: 104%;
+        height: 390px;
     }
     
-    #title_39{
-        width: 380px;
-        height: auto;
+    #carouselExample1Dark{
+        height: 330px;
+        width: 462px;
+        margin-top: -25px;
     }
-    
-    #title_39 img{
-        width: 140px;
-        height: auto;
-        margin-top: 135px;
-    }
-
-    #title_39{
-        width: 380px;
-        height: 300px;
-        margin-left: 14px;
-    }
-
-    .right-arrow1{
-        margin-top: 20px;
-        margin-left: -150px;
-        height: 350px;
-        width: 150px;
-        z-index: 100;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .left-arrow1{
-        margin-top: 20px;
-        margin-right: -150px;
-        height: 350px;
-        width: 150px;
-        z-index: 100;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .right-arrow1 img{
-        margin-left: 50px;
-        width: 20px;
-        height: 33px;
-    }
-    
-    .left-arrow1 img{
-        margin-right: 50px;
-        width: 20px;
-        height: 33px;
+    #carouselExampleDark{
+        height: 330px;
+        width: 462px;
+        margin-top: -22px;
     }
 
 
@@ -1173,7 +1138,7 @@
 
     /*Footer*/
 
-    .footerContainer{
+    #footerContainer{
         display: none;
     }
 }
@@ -1317,6 +1282,32 @@
         width: auto;
     }
 
+    /*Third Page*/
+
+    /*titles*/
+
+    #thirdPage__mainContainer__titlesContainer__container__schoolsContainer{
+        height: 310px;
+        width: 104%;
+    }
+    
+    #thirdPage__mainContainer__titlesContainer__container__coursesContainer{
+        margin-top: 30px;
+        height: 310px;
+        width: 104%;
+    }
+    
+    #carouselExample1Dark{
+        height: 250px;
+        width: 362px;
+        margin-top: -24px;
+    }
+    #carouselExampleDark{
+        height: 250px;
+        width: 362px;
+        margin-top: -24px;
+    }
+
 }
 
 
@@ -1418,88 +1409,57 @@
         margin-top: -3px;
     }
 
+    /*Third Page*/
+
     /*titles*/
 
-    #carrusel1 {
-        width:290px;
-        height:250px;
+
+    #thirdPage__mainContainer__titlesContainer__container{
+        margin-left: -3%;
     }
 
-    .carrusel1>div {
-        float: left;
-        width:300px;
-        height:250px;
-        margin-right: 10px;
-        text-align:center;
-        margin-top: 20px;
-        margin-left: -5px;
-    }
-
-    #title_0 img{
-        width: 270px;
-        height: auto;
-    }
-
-    #title_1 img{
-        width: 270px;
-        height: auto;
+    #thirdPage__mainContainer__titlesContainer__container__schoolsContainer{
+        height: 240px;
+        width: 104%;
     }
     
-    #title_2 img{
-        width: 270px;
-        height: auto;
+    #thirdPage__mainContainer__titlesContainer__container__coursesContainer{
+        margin-top: 30px;
+        height: 240px;
+        width: 104%;
     }
     
-    #title_39{
-        width: 270px;
-        height: auto;
+    #carouselExample1Dark{
+        height: 100px;
+        width: 282px;
+        margin-top: -120px;
     }
-    
-    #title_39 img{
-        width: 140px;
-        height: auto;
-        margin-top: 100px;
-    }
-
-    #title_39{
-        width: 270px;
-        height: 220px;
-        margin-left: 10px;
+    #carouselExampleDark{
+        height: 100px;
+        width: 282px;
+        margin-top: -120px;
     }
 
-    .right-arrow1{
-        margin-top: 10px;
-        margin-left: -150px;
-        height: 285px;
-        width: 150px;
-        z-index: 100;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    #thirdPage__mainContainer__titlesContainer__container__schoolsContainer__carouselExample1Dark__carouselIndicator{
+        opacity: 0;
     }
 
-    .left-arrow1{
-        margin-top: 10px;
-        margin-right: -150px;
-        height: 285px;
-        width: 150px;
-        z-index: 100;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    #thirdPage__mainContainer__titlesContainer__container__schoolsContainer__carouselExample1Dark__leftControl{
+        opacity: 0;
     }
 
-    .right-arrow1 img{
-        margin-left: 70px;
-        width: 10px;
-        height: auto;
+    #thirdPage__mainContainer__titlesContainer__container__schoolsContainer__carouselExample1Dark__rightControl{
+        opacity: 0;
     }
-    
-    .left-arrow1 img{
-        margin-right: 70px;
-        width: 10px;
-        height: auto;
+
+    #thirdPage__mainContainer__titlesContainer__container__coursesContainer__carouselExampleDark__carouselIndicators__leftControler{
+        opacity: 0;
     }
+
+    #thirdPage__mainContainer__titlesContainer__container__coursesContainer__carouselExampleDark__carouselIndicators__rightControler{
+        opacity: 0;
+    }
+
 
     /*Contact*/
 
@@ -1641,7 +1601,6 @@
 
     .thirdPage__mainContainer__contactContainer__titleContainer__text__signe{
         font-size: 50px;
-        margin-top: 54px;
     }
 
     .thirdPage__mainContainer__contactContainer__titleContainer__text__secondPart{
@@ -1650,20 +1609,20 @@
 
     .thirdPage__mainContainer__contactContainer__titleContainer__signe{
         font-size: 50px;
-        margin-top: 60px;
     }
 
     .thirdPage__mainContainer__contactContainer__container__centerContainer{
         width: 100vw;
     }
 
-    .thirdPage__mainContainer__contactContainer__container__centerContainer__leftContainer{
+    #thirdPage__mainContainer__contactContainer__container__centerContainer__leftContainer{
         width: 100%;
         display: flex;
         justify-content: center;
+        margin-left: -12px;
     }
     
-    .thirdPage__mainContainer__contactContainer__container__centerContainer__leftContainer h2{
+    #thirdPage__mainContainer__contactContainer__container__centerContainer__leftContainer h2{
         text-align: left;
         width: 90%;
     }
