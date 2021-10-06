@@ -1446,18 +1446,22 @@
 
     #thirdPage__mainContainer__titlesContainer__container__schoolsContainer__carouselExample1Dark__leftControl{
         opacity: 0;
+        height: 200%;
     }
 
     #thirdPage__mainContainer__titlesContainer__container__schoolsContainer__carouselExample1Dark__rightControl{
         opacity: 0;
+        height: 200%;
     }
 
     #thirdPage__mainContainer__titlesContainer__container__coursesContainer__carouselExampleDark__carouselIndicators__leftControler{
         opacity: 0;
+        height: 200%;
     }
 
     #thirdPage__mainContainer__titlesContainer__container__coursesContainer__carouselExampleDark__carouselIndicators__rightControler{
         opacity: 0;
+        height: 200%;
     }
 
 
