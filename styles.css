@@ -60,6 +60,7 @@ header{
     height: 52px;
 }
 
+
 .header__container__container{
     width: 35px;
     height: 52px;
@@ -411,11 +412,17 @@ header{
     margin-top: 70px;
 }
 
+.firstPage__aboutMeButtonContainer a img{
+    transition: transform 370ms ease-in-out;
+}
 
 .firstPage__aboutMeButtonContainer a img:hover{
+    transform: scale(1.03) translateY(3px);
     cursor: pointer;
-
+    transition: transform 370ms;
 }
+
+
 
 .firstPage__leftContainer__container__buttonContainer{
     margin-top: 100px;
