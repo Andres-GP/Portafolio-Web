@@ -47,15 +47,21 @@ header{
 .header__container a{
     margin-left: 18px;
     margin-right: 17px;
+    opacity: 0.7;
+    transition: opacity 500ms;
+}
+
+.header__container a:hover{
+    opacity: 2;
 }
 
 .header__container a img{
-    width: 32px;
+    width: 35px;
     height: 52px;
 }
 
 .header__container__container{
-    width: 32px;
+    width: 35px;
     height: 52px;
 }
 
@@ -69,6 +75,12 @@ header{
 .header__container__container__menuButton img{
     width: 32px;
     height: 52px;
+    opacity: 0.7;
+    transition: opacity 500ms;
+}
+
+.header__container__container__menuButton img:hover{
+    opacity: 2;
 }
 
 .header__logo{
@@ -76,7 +88,17 @@ header{
     height: 80.5px;
     margin-left: 25px;
     margin-top: 15px;
+    z-index: 300;
+    opacity: 1;
+    transition: opacity 500ms;
 }
+
+.header__logo:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
 
 .header__container__container__menuButton:hover{
     cursor: pointer;
@@ -145,7 +167,6 @@ header{
 
 
 
-
 .menuContainer__menuPicker{
     display: flex;
     align-items: center;
@@ -160,6 +181,7 @@ header{
     height: 110%;
     cursor: default;
     background-color: #18191B;
+    padding-bottom: 30px;
     list-style: none;
     text-decoration: none;
     box-shadow: 0px 4px 25px 20px #00000020;
@@ -186,7 +208,117 @@ header{
     color: white;
     margin-right: 30px;
     text-decoration: none;
+    text-transform: none;
+    opacity: 0.7;
+    transition: opacity 300ms;
 }
+
+.menuContainer__menuPicker li a:hover{
+    opacity: 1;
+}
+
+
+
+
+/*menu transitions*/
+
+#menuContainer__menuPicker__li__a__home{
+    position: absolute;
+    background-color: #6AB04C;
+    z-index: 100px;
+    margin-top: -24px;
+    margin-left: 55px;
+    width: 1px;
+    height: 8px;
+    opacity: 0;
+    transition: transform 400ms;
+    transition: 350ms ease-in-out;
+}
+
+.menuContainer__menuPicker li a:hover #menuContainer__menuPicker__li__a__home{
+    transform: scaleX(120.0);
+    opacity: 0.9;
+}
+
+#menuContainer__menuPicker__li__a__projects{
+    position: absolute;
+    background-color: #F56019;
+    z-index: 100px;
+    margin-top: -24px;
+    margin-left: 79px;
+    width: 1px;
+    height: 8px;
+    opacity: 0;
+    transition: transform 400ms;
+    transition: 350ms ease-in-out;
+}
+
+.menuContainer__menuPicker li a:hover #menuContainer__menuPicker__li__a__projects{
+    transform: scaleX(170.0);
+    opacity: 0.9;
+}
+
+#menuContainer__menuPicker__li__a__aboutMe{
+    position: absolute;
+    background-color: #9843D8;
+    z-index: 100px;
+    margin-top: -24px;
+    margin-left: 88px;
+    width: 1px;
+    height: 8px;
+    opacity: 0;
+    transition: transform 400ms;
+    transition: 350ms ease-in-out;
+}
+
+.menuContainer__menuPicker li a:hover #menuContainer__menuPicker__li__a__aboutMe{
+    transform: scaleX(188.0);
+    opacity: 0.9;
+}
+
+
+#menuContainer__menuPicker__li__a__diplomas{
+    position: absolute;
+    background-color: #FFC700;
+    z-index: 100px;
+    margin-top: -24px;
+    margin-left: 88px;
+    width: 1px;
+    height: 8px;
+    opacity: 0;
+    transition: transform 400ms;
+    transition: 350ms ease-in-out;
+}
+
+.menuContainer__menuPicker li a:hover #menuContainer__menuPicker__li__a__diplomas{
+    transform: scaleX(182.0);
+    opacity: 0.9;
+}
+
+
+#menuContainer__menuPicker__li__a__contact{
+    position: absolute;
+    background-color: #2196F3;
+    z-index: 100px;
+    margin-top: -24px;
+    margin-left: 77px;
+    width: 1px;
+    height: 8px;
+    opacity: 0;
+    transition: transform 400ms;
+    transition: 350ms ease-in-out;
+}
+
+.menuContainer__menuPicker li a:hover #menuContainer__menuPicker__li__a__contact{
+    transform: scaleX(166.0);
+    opacity: 1;
+}
+
+
+
+
+
+
 
 .menuContainer__menuPicker li img{
     width: 32px;
@@ -194,10 +326,13 @@ header{
     position: absolute;
     right: 32px;
     top: 35px;
+    opacity: 0.8;
+    transition: opacity 500ms;
 }
 
 .menuContainer__menuPicker li img:hover{
     cursor: pointer;
+    opacity: 1;
 }
 
 
