@@ -91,7 +91,7 @@ header{
     margin-top: 15px;
     z-index: 300;
     opacity: 1;
-    transition: opacity 500ms;
+    transition: opacity 300ms ease-in-out;
 }
 
 .header__logo:hover{
@@ -608,6 +608,11 @@ header{
     justify-content: center;
     align-items: flex-end;
     box-shadow: 0 4 4 0 #000000;
+    transition: transform 160ms ease-in-out;
+}
+
+.secondPageColumn__behendProyectContainer__container:hover{
+    transform: scale(1.01) translateY(-1px);
 }
 
 .secondPageColumn__behendProyectContainer__container img{
@@ -653,6 +658,11 @@ header{
 .secondPageColumn__behendProyectContainer__container__description__linksContainer a img{
     width: 43px;
     height: 45px;
+    transition: transform 100ms ease-in-out;
+}
+
+.secondPageColumn__behendProyectContainer__container__description__linksContainer a img:hover{
+    transform: scale(1.06);
 }
 
 .secondPageColumn__mblogProyectContainer{
@@ -668,6 +678,11 @@ header{
     justify-content: center;
     align-items: flex-end;
     box-shadow: 0 4 4 0 #000000;
+    transition: transform 160ms ease-in-out;
+}
+
+.secondPageColumn__mblogProyectContainer__container:hover{
+    transform: scale(1.01) translateY(-1px);
 }
 
 .secondPageColumn__mblogProyectContainer__container__backgroundImage{
@@ -713,6 +728,11 @@ header{
 .secondPageColumn__mblogProyectContainer__container__description__linksContainer a img{
     width: 43px;
     height: 45px;
+    transition: transform 100ms ease-in-out;
+}
+
+.secondPageColumn__mblogProyectContainer__container__description__linksContainer a img:hover{
+    transform: scale(1.06);
 }
 
 .secondPageColumn__notasticProyectContainer{
@@ -728,6 +748,11 @@ header{
     justify-content: center;
     align-items: flex-end;
     box-shadow: 0 4 4 0 #000000;
+    transition: transform 160ms ease-in-out;
+}
+
+.secondPageColumn__notasticProyectContainer__container:hover{
+    transform: scale(1.01) translateY(-1px);
 }
 
 .secondPageColumn__notasticProyectContainer__container__backgroundImage{
@@ -772,6 +797,11 @@ header{
 .secondPageColumn__notasticProyectContainer__container__description__linksContainer a img{
     width: 43px;
     height: 45px;
+    transition: transform 100ms ease-in-out;
+}
+
+.secondPageColumn__notasticProyectContainer__container__description__linksContainer a img:hover{
+    transform: scale(1.06);
 }
 
 .secondPageColumn__protompanyProyectContainer{
@@ -787,6 +817,11 @@ header{
     justify-content: center;
     align-items: flex-end;
     box-shadow: 0 4 4 0 #000000;
+    transition: transform 160ms ease-in-out;
+}
+
+.secondPageColumn__protompanyProyectContainer__container:hover{
+    transform: scale(1.01) translateY(-1px);
 }
 
 .secondPageColumn__protompanyProyectContainer__container__backgroundImage{
@@ -831,6 +866,11 @@ header{
 .secondPageColumn__protompanyProyectContainer__container__description__linksContainer a img{
     width: 43px;
     height: 45px;
+    transition: transform 100ms ease-in-out;
+}
+
+.secondPageColumn__protompanyProyectContainer__container__description__linksContainer a img:hover{
+    transform: scale(1.06);
 }
 
 .secondPageColumn__behendProyectContainer__container__description{
@@ -1489,6 +1529,11 @@ header{
     margin-top: 40px;
     display: flex;
     justify-content: center;
+    transition: transform 200ms ease-in-out;
+}
+
+.thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer__profileImage:hover{
+    transform: scale(1.02);
 }
 
 .thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer__profileImage img{
@@ -1865,6 +1910,13 @@ header{
     width: 150;
     height: 170px;
     margin-top: 35px;
+    opacity: 1;
+    transition: opacity 300ms ease-in-out;
+}
+
+.thirdPage__mainContainer__contactContainer__iconContainer img:hover{
+    opacity: 0.6;
+    cursor: pointer;
 }
 
 .thirdPage__mainContainer__contactContainer__container{
@@ -1908,7 +1960,8 @@ header{
 }
 
 .thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__container{
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: left;
     margin-left: 50px;
 }
@@ -1924,7 +1977,14 @@ header{
     color: #68717A;
     font-size: 15px;
     font-weight: 500;
-    margin-top: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: color 200ms linear;
+}
+
+.thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__container_email:hover{
+    text-decoration: none;
+    color: #808b97;
 }
 
 .thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__container_numberContact{
@@ -1932,14 +1992,21 @@ header{
     color: #68717A;
     font-size: 15px;
     font-weight: 500;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-left: -1px;
+    text-decoration: none;
+    transition: color 200ms linear;
+}
+
+.thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__container_numberContact:hover{
+    text-decoration: none;
+    color: #808b97;
 }
 
 .thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__linksIcon{
     display: flex;
     margin-left: 40px;
-    margin-top: -5px;
+    margin-top: 8px;
     margin-bottom: -15px;
 }
 

@@ -1646,6 +1646,12 @@
         width: 90%
     }
 
+    .thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__container a{
+        text-align: left;
+        margin-top: -2px;
+        width: 90%
+    }
+
     .thirdPage__mainContainer__contactContainer__container__centerContainer__rigthContainer__linksIcon{
         display: flex;
         margin-top: 15px;
