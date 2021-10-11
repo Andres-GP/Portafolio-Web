@@ -1135,6 +1135,19 @@ header{
     height: 500px;
     background-color: white;
     box-shadow: 0px 30px 25px 0px #00000010;
+    transition: transform 200ms ease-in-out;
+}
+
+.product:hover{
+    transform: scale(1.05);
+}
+
+.product div div div a img{
+    transition: transform 200ms ease-in-out;
+}
+
+.product div div div a img:hover{
+    transform: scale(1.15);
 }
 
 #product_0 .productZero_container__background{
