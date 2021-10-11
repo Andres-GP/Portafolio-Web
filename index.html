@@ -14,6 +14,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
+    <!--AOS(Animations)-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
@@ -33,7 +36,12 @@
     <div class="firstPageContainer">
         <div class="firstPageContainer__separator"></div>
     </div>
-    <div class="firstPage__aboutMeButtonContainer">
+    <div class="firstPage__aboutMeButtonContainer"
+         data-aos="fade-down"
+         data-aos-offset="400"
+         data-aos-duration="700"
+         data-aos-easing="ease-in-out"
+         data-aos-once="true">
         <a href="#third-page"><img src="assets/first_page_photo.svg" alt=""></a>
     </div>
     <div class="firstPage__separator"></div>
@@ -42,7 +50,12 @@
 
 
     <!--Header-->
-    <header id="header">
+    <header id="header"
+            data-aos="fade-down"
+            data-aos-offset="400"
+            data-aos-duration="1000"
+            data-aos-easing="ease-out"
+            data-aos-once="true">
         <img class="header__logo" alt="" src="assets/header_logo.svg" >
          <div class="header__container">
             <a href="https://github.com/Andres-GP">
@@ -86,7 +99,13 @@
         <!--1st Page-->
         <div class="firstPage">
             <div class="firstPage__leftContainer">
-                <div class="firstPage__leftContainer__container">
+                <div class="firstPage__leftContainer__container"
+                     data-aos="fade-right"
+                     data-aos-offset="200"
+                     data-aos-duration="800"
+                     data-aos-delay="100"
+                     data-aos-easing="ease-in-out"
+                     data-aos-once="true">
                     <div class="firstPage__leftContainer__container__titleContainer">
                         <h1>It begins with ideas.
                             Ideas based on purpose.</h1>
@@ -95,13 +114,20 @@
                         <h2>I enjoy to develop great ideas based on wisdom and intelligence, I like to explore new and open possibilities, I love to develop my own solutions and to put a lot of effort in every new product I work in, I’m willing to give amazing ideas and take them to live in little time, fast as thought; you can put all your confidence in my commitment, professionalism and knowledge, feel free to contact me, I’m always looking forward for any new collaborations and deals.</h2>
                     </div>
                 </div>
-                    <div class="firstPage__leftContainer__container__buttonContainer">
+                    <div class="firstPage__leftContainer__container__buttonContainer"
+                         data-aos="fade-right">
                         <a href="#second-page">
                             <button class="firstPage__leftContainer__container__buttonContainer__button"> Get started!!</button>
                         </a>
                     </div>
             </div>
-            <div class="firstPage__rightContainer">
+            <div class="firstPage__rightContainer"
+                 data-aos="fade-up"
+                 data-aos-offset="200"
+                 data-aos-duration="800"
+                 data-aos-delay="300"
+                 data-aos-easing="ease-in-out"
+                 data-aos-once="true">
                 <picture class="firstPage__rightContainer__iphoneAndWindowImg">
                     <source srcset="assets/first_page_phone_media1900px.svg" media="(min-width: 1900px)">
                     <img class="firstPage__rightContainer__iphoneAndWindowImgsvg" src="assets/first_page_phone.svg" alt="">
@@ -119,27 +145,69 @@
         <!--2nd Page-->
         <div class="secondPage">
             <div class="secondPage__firstImageTablet" id="second-page">
-                <img src="assets/second_page_first_tablet.svg" alt="">
+                <img src="assets/second_page_first_tablet.svg" alt=""
+                     data-aos="fade"
+                     data-aos-offset="200"
+                     data-aos-duration="800"
+                     data-aos-easing="ease-in-out"
+                     data-aos-once="true">
             </div>
             <div class="secondPage__titleContainer">
-                <div class="secondPage__titleContainer__container">
-                    <h2 class="secondPage__titleContainer__container__text">Some work</h2>
-                    <h2 class="secondPage__titleContainer__container__dot">.</h2>
+                <div class="secondPage__titleContainer__container"
+                     data-aos="fade-down"
+                     data-aos-duration="800"
+                     data-aos-easing="ease-in-out"
+                     data-aos-once="true">
+                    <h2 class="secondPage__titleContainer__container__text"
+                        data-aos="flip-down"
+                        data-aos-delay="500"
+                        data-aos-duration="900"
+                        data-aos-once="true">Some work</h2>
+                    <h2 class="secondPage__titleContainer__container__dot"
+                        data-aos="flip-down"
+                        data-aos-delay="500"
+                        data-aos-duration="900"
+                        data-aos-once="true">.</h2>
                 </div>
             </div>
-            <div class="secondPage__secondImageTablet">
+            <div class="secondPage__secondImageTablet"
+                 data-aos="fade-up"
+                 data-aos-offset="200"
+                 data-aos-duration="800"
+                 data-aos-easing="ease-in-out"
+                 data-aos-once="true">
                 <img src="assets/second_page__second_tablet.svg" alt="">
             </div>
-            <div class="secondPage__thirdImageTablet">
+            <div class="secondPage__thirdImageTablet"
+                 data-aos="fade-up"
+                 data-aos-offset="200"
+                 data-aos-duration="800"
+                 data-aos-easing="ease-in-out"
+                 data-aos-once="true">
                 <img src="assets/second_page__third_tablet.svg" alt="">
             </div>
-           <div class="secondPage__fourthImageTablet">
+           <div class="secondPage__fourthImageTablet"
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-duration="800"
+                data-aos-easing="ease-in-out"
+                data-aos-once="true">
                 <img src="assets/second_page__fourth_tablet.svg" alt="">
             </div>
-            <div class="secondPage__fifthImageTablet">
+            <div class="secondPage__fifthImageTablet"
+                 data-aos="fade-up"
+                 data-aos-offset="200"
+                 data-aos-duration="800"
+                 data-aos-easing="ease-in-out"
+                 data-aos-once="true">
                 <img src="assets/second_page__fifth_tablet.svg" alt="">
             </div>
-            <div class="secondPage__sixthImageTablet">
+            <div class="secondPage__sixthImageTablet"
+                 data-aos="fade-up"
+                 data-aos-offset="200"
+                 data-aos-duration="800"
+                 data-aos-easing="ease-in-out"
+                 data-aos-once="true">
                 <img src="assets/second_page__sixth_tablet.svg" alt="">
             </div>
             <div class="secondPage__middleBackgroundLine"></div>
@@ -149,7 +217,13 @@
 
 
         <!--2nd page projects column-->
-        <div class="secondPageColumn">
+        <div class="secondPageColumn"
+             data-aos="fade-right"
+             data-aos-offset="200"
+             data-aos-duration="400"
+             data-aos-delay="50"
+             data-aos-easing="ease-in-out"
+             data-aos-once="true">
             <div class="secondPageColumn__behendProyectContainer">
                 <div class="secondPageColumn__behendProyectContainer__container">
                     <img class="secondPageColumn__behendProyectContainer__container__backgroundImage" src="assets/second_page_behend_background_image.png" alt="">
@@ -235,9 +309,22 @@
 
             <!--Other Proyects-->
             <div class="secondPageColumn__otherProyectsContainer">
-                <div class="secondPageColumn__otherProyectsContainer__titleContainer">
-                    <h2 class="secondPageColumn__otherProyectsContainer__titleContainer__text">Other Proyects</h2>
-                    <h2 class="secondPageColumn__otherProyectsContainer__titleContainer__dot">.</h2>
+                <div class="secondPageColumn__otherProyectsContainer__titleContainer"
+                     data-aos="fade-right"
+                     data-aos-offset="200"
+                     data-aos-duration="600"
+                     data-aos-easing="ease-in-out"
+                     data-aos-once="true">
+                    <h2 class="secondPageColumn__otherProyectsContainer__titleContainer__text"
+                        data-aos="flip-down"
+                        data-aos-delay="500"
+                        data-aos-duration="900"
+                        data-aos-once="true">Other Proyects</h2>
+                    <h2 class="secondPageColumn__otherProyectsContainer__titleContainer__dot"
+                        data-aos="flip-down"
+                        data-aos-delay="500"
+                        data-aos-duration="900"
+                        data-aos-once="true">.</h2>
                 </div>
             </div>
             <div class="secondPageColumn__otherProyectsContainer__carousel">
@@ -390,23 +477,48 @@
         <!--3rd page-->
         <div class="thirdPage">
             <div class="thirdPage__backgroundContainer" id="third-page">
-                <div class="thirdPage__backgroundContainer__firstImageTablet">
+                <div class="thirdPage__backgroundContainer__firstImageTablet"
+                     data-aos="fade-up"
+                     data-aos-offset="200"
+                     data-aos-duration="800"
+                     data-aos-easing="ease-in-out"
+                     data-aos-once="true">
                     <img src="assets/third_page_firstTablet.svg" alt="">
                 </div>
-                <div class="thirdPage__backgroundContainer__secondImageTablet">
+                <div class="thirdPage__backgroundContainer__secondImageTablet"
+                     data-aos="fade-up"
+                     data-aos-offset="200"
+                     data-aos-duration="1000"
+                     data-aos-easing="ease-in-out"
+                     data-aos-once="true">
                     <img src="assets/third_page_secondTablet.svg" alt="">
                 </div>
-                <div class="thirdPage__backgroundContainer__thirdImageTablet">
+                <div class="thirdPage__backgroundContainer__thirdImageTablet"
+                     data-aos="fade-up"
+                     data-aos-offset="200"
+                     data-aos-duration="900"
+                     data-aos-easing="ease-in-out"
+                     data-aos-once="true">
                     <img src="assets/third_page_thirdTablet.svg" alt="">
                 </div>
-                <div class="thirdPage__backgroundContainer__fourthImageTablet">
+                <div class="thirdPage__backgroundContainer__fourthImageTablet"
+                     data-aos="fade-up"
+                     data-aos-offset="200"
+                     data-aos-duration="700"
+                     data-aos-easing="ease-in-out"
+                     data-aos-once="true">
                     <img src="assets/third_page_fourthTablet.svg" alt="">
                 </div>
             </div>
 
             <div class="thirdPage__mainContainer" >
                 <div class="thirdPage__mainContainer__mainDescriptionContainer">
-                    <div class="thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer">
+                    <div class="thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer"
+                         data-aos="fade-right"
+                         data-aos-offset="200"
+                         data-aos-duration="600"
+                         data-aos-easing="ease-in-out"
+                         data-aos-once="true">
                         <div class="thirdPage__mainContainer__mainDescriptionContainer__aboutMeContainer__profileImage">
                             <img src="assets/third_page_profile_image.svg" alt="">
                         </div>
@@ -421,8 +533,14 @@
                     </div>
                     <div class="thirdPage__mainContainer__mainDescriptionContainer__textDescription">
                         <div class="thirdPage__mainContainer__mainDescriptionContainer__textDescription__title">
-                            <h2 class="thirdPage__mainContainer__mainDescriptionContainer__textDescription__title__text">About Me</h2>
-                            <h2 class="thirdPage__mainContainer__mainDescriptionContainer__textDescription__title__dot">.</h2>
+                            <h2 class="thirdPage__mainContainer__mainDescriptionContainer__textDescription__title__text"
+                                data-aos="flip-down"
+                                data-aos-delay="200"
+                                data-aos-duration="500">About Me</h2>
+                            <h2 class="thirdPage__mainContainer__mainDescriptionContainer__textDescription__title__dot"
+                                data-aos="flip-down"
+                                data-aos-delay="200"
+                                data-aos-duration="500">.</h2>
                         </div>
                         <div class="thirdPage__mainContainer__mainDescriptionContainer__textDescription__text">
                             <p2 class="thirdPage__mainContainer__mainDescriptionContainer__textDescription__text__1" >
@@ -434,7 +552,12 @@
                 <div class="thirdPage__mainContainer__container">
                     <div class="thirdPage__mainContainer__container__container">
                         <div class="thirdPage__mainContainer__container__container__spacer"></div>
-                        <div class="thirdPage__mainContainer__container__container__competenciesContainer">
+                        <div class="thirdPage__mainContainer__container__container__competenciesContainer"
+                             data-aos="fade-right"
+                             data-aos-offset="200"
+                             data-aos-duration="800"
+                             data-aos-easing="ease-in-out"
+                             data-aos-once="true">
                             <div class="thirdPage__mainContainer__container__container__competenciesContainer__title">
                                 <h2>COMPETENCIES</h2>
                             </div>
@@ -442,7 +565,7 @@
                                 <h2>FRONTEND:</h2>
                             </div>
                             <div class="thirdPage__mainContainer__container__container__competenciesContainer__frontEndText">
-                                <h2>HTML5, CSS3, Javascript, Bootstrap, JSX, React, Angular, Typescript, JSON, Electron, XML, Kotlin, Flutter, Iconic, React Native.</h2>
+                                <h2>HTML5, CSS3, Javascript, Aos, Bootstrap, JSX, React, Angular, Typescript, JSON, Electron, XML, Kotlin, Flutter, Iconic, React Native.</h2>
                             </div>
                             <div class="thirdPage__mainContainer__container__container__competenciesContainer_softSkillsTitle">
                                 <h2>SOFT SKILLS:</h2>
@@ -463,11 +586,30 @@
 
 
                 <!--Diplomas-->
-                <div id="thirdPage__mainContainer__titlesContainer">
+                <div id="thirdPage__mainContainer__titlesContainer"
+                     data-aos="fade"
+                     data-aos-offset="200"
+                     data-aos-duration="600"
+                     data-aos-delay="200"
+                     data-aos-easing="ease-in-out"
+                     data-aos-once="true">
                     <div id="thirdPage__mainContainer__titlesContainer__titleContainer">
-                        <div id="thirdPage__mainContainer__titlesContainer__titleContainer__container">
-                            <h2 id="thirdPage__mainContainer__titlesContainer__titleContainer__container__text">Diplomas</h2>
-                            <h2 id="thirdPage__mainContainer__titlesContainer__titleContainer__container__dot">.</h2>
+                        <div id="thirdPage__mainContainer__titlesContainer__titleContainer__container"
+                             data-aos="fade-left"
+                             data-aos-offset="200"
+                             data-aos-duration="600"
+                             data-aos-easing="ease-in-out"
+                             data-aos-once="true">
+                            <h2 id="thirdPage__mainContainer__titlesContainer__titleContainer__container__text"
+                                data-aos="flip-down"
+                                data-aos-delay="400"
+                                data-aos-duration="900"
+                                data-aos-once="true">Diplomas</h2>
+                            <h2 id="thirdPage__mainContainer__titlesContainer__titleContainer__container__dot"
+                                data-aos="flip-down"
+                                data-aos-delay="500"
+                                data-aos-duration="900"
+                                data-aos-once="true">.</h2>
                         </div>
                     </div>
 
@@ -1010,16 +1152,52 @@
 
 
                 <!--Contact Page-->
-                <div class="thirdPage__mainContainer__contactContainer" id="contact-page">
+                <div class="thirdPage__mainContainer__contactContainer" id="contact-page"
+                     data-aos="fade"
+                     data-aos-offset="200"
+                     data-aos-duration="700"
+                     data-aos-delay="300"
+                     data-aos-easing="ease-in-out"
+                     data-aos-once="true">
                     <div class="thirdPage__mainContainer__contactContainer__titleContainer">
                         <div class="thirdPage__mainContainer__contactContainer__titleContainer__text">
-                            <h2 class="thirdPage__mainContainer__contactContainer__titleContainer__text__firstPart">Let</h2>
-                            <h2 class="thirdPage__mainContainer__contactContainer__titleContainer__text__signe">’</h2>
-                            <h2 class="thirdPage__mainContainer__contactContainer__titleContainer__text__secondPart">s Talk</h2>
+                            <h2 class="thirdPage__mainContainer__contactContainer__titleContainer__text__firstPart"
+                                data-aos="fade"
+                                data-aos-offset="20"
+                                data-aos-duration="700"
+                                data-aos-delay="400"
+                                data-aos-easing="ease-in-out"
+                                data-aos-once="true">Let</h2>
+                            <h2 class="thirdPage__mainContainer__contactContainer__titleContainer__text__signe"
+                                data-aos="fade"
+                                data-aos-offset="20"
+                                data-aos-duration="700"
+                                data-aos-delay="700"
+                                data-aos-easing="ease-in-out"
+                                data-aos-once="true">’</h2>
+                            <h2 class="thirdPage__mainContainer__contactContainer__titleContainer__text__secondPart"
+                                data-aos="fade"
+                                data-aos-offset="20"
+                                data-aos-duration="700"
+                                data-aos-delay="600"
+                                data-aos-easing="ease-in-out"
+                                data-aos-once="true">s Talk</h2>
                         </div>
-                        <h2 class="thirdPage__mainContainer__contactContainer__titleContainer__signe">!</h2>
+                        <h2 class="thirdPage__mainContainer__contactContainer__titleContainer__signe"
+                            data-aos="fade"
+                            data-aos-offset="20"
+                            data-aos-duration="700"
+                            data-aos-delay="1000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-once="true">!</h2>
                     </div>
-                    <div class="thirdPage__mainContainer__contactContainer__iconContainer">
+                    <div class="thirdPage__mainContainer__contactContainer__iconContainer"
+                         data-aos="fade"
+                         data-aos-offset="20"
+                         data-aos-duration="900"
+                         data-aos-delay="800"
+                         data-aos-easing="ease-in-out"
+                         data-aos-once="true">
                         <img src="assets/header_logo.svg" alt="">
                     </div>
                     <div class="thirdPage__mainContainer__contactContainer__container" >
@@ -1065,18 +1243,43 @@
     <!--Footer-->
     <footer>
         <div id="footerContainer" class="footerContainer">
-            <h2 class="footerContainer__text">Andres García</h2>
-            <h2 class="footerContainer__dot">.</h2>
+            <h2 class="footerContainer__text"
+                data-aos="fade"
+                data-aos-offset="20"
+                data-aos-duration="700"
+                data-aos-delay="100"
+                data-aos-easing="ease-in-out"
+                data-aos-once="true">Andres García</h2>
+            <h2 class="footerContainer__dot"
+                data-aos="fade"
+                data-aos-offset="20"
+                data-aos-duration="700"
+                data-aos-delay="500"
+                data-aos-easing="ease-in-out"
+                data-aos-once="true">.</h2>
         </div>
     </footer>
+
+
+
+
+    <!--Scripts-->
+
+    <!--AOS(Animations)-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
+<!--Local Code-->
 <script src="index.js"></script>
 
 <!--Bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
-<!--Jquery¿-->
+<!--Jquery-->
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 
 <!--first carousel Jquery Script-->
