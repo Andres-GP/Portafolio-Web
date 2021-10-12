@@ -7,6 +7,7 @@ window.onload = function consoleLog () {
     console.log("👮🏿🚨Weedo👮🏿🚨Weeeeeedo!👮🏿🚨WEEEEEEEDO!\n 👮🏿 Police, open up! 👮🏿\n 👀 Are you looking for son? 👀");
 };      
 
+
 //Menu Modal
 const openMenu = document.getElementById('openMenuButton');
 const menu = document.getElementById('menu');
@@ -37,7 +38,3 @@ menuShade.addEventListener('click', () => {
     menuPicker.classList.remove('show');
     closeMenu.classList.remove('show');
 });
-
-
-
-
