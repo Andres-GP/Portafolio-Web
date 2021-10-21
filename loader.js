@@ -4,16 +4,6 @@ window.addEventListener('load', function(){
 	$('.loaderSection').addClass('loaded');
 })
 
-/*
-$(document).ready(function() {
- 
-	// Fakes the loading setting a timeout
-	  setTimeout(function() {
-		  $('.loaderSection').addClass('loaded');
-		}, 2000);
-  });
- */
-
 
 //Loader Animation
 
