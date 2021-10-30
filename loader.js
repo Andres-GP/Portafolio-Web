@@ -1,11 +1,8 @@
-$(document).ready(function() {
- 
-	// Fakes the loading setting a timeout
-	  setTimeout(function() {
-		  $('.loaderSection').addClass('loaded');
-		}, 2000);
-  });
+var loader = document.getElementById('loaderSection');
 
+window.addEventListener('load', function(){
+	$('.loaderSection').addClass('loaded');
+})
 
 
 //Loader Animation
