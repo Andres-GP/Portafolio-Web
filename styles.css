@@ -1555,10 +1555,13 @@ header{
   /*Titles*/
 
 #otherProjectsCarousel{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: -100px;
+    margin-left: -10px;
+    z-index: 100;
 }
 
 
@@ -1591,15 +1594,46 @@ header{
     opacity: 0;
 }
 
-.othertProject__box{
+.otherProject__box{
     display: flex;
     flex-direction: row;
-    align-self: center;
-    background: red;
-    height: 100px;
-    width: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 4px 15px 5px #00000055;
+    background: #41464B;
+    border-radius: 8px;
+    height: 60px;
+    width: 120px;
     position: absolute;
-    z-index: 1000000;
+    margin-left: 38%;
+    margin-bottom: 20px;
+    left: 0; 
+    right: 0;
+    bottom: 0px;
+    z-index: 1000;
+}
+
+.otherProject__box a{
+    height: 50px;
+}
+
+.otherProject__box a img{
+    margin-top: 5px;
+    height: 50px;
+    transition: transform 100ms ease-in-out;
+}
+
+.otherProject__box a img:hover{
+    transform: scale(1.06);
+}
+
+.otherProject__box a:hover{
+   cursor: pointer;
+}
+
+.otherProject{
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -1615,6 +1649,7 @@ header{
     margin-top: 4650px;
     z-index: 5;
     width: 100%;
+    pointer-events: none;
 }
 
 .second__thirdPageWaves{
