@@ -21,6 +21,12 @@
         margin-left: 400px;
     }
 
+    .secondPageColumn__otherProyectsContainer{
+        margin-top: 10px;
+    }
+
+    
+
     /*waves*/
 
     .second__thirdPageWaves{
@@ -265,6 +271,11 @@
     .left-arrow1 img{
         width: 100px;
         height: 100px;
+    }
+
+    .otherProjectsCarousel{
+        margin-left: 100px;
+
     }
 
     /*Third Page*/
@@ -1173,6 +1184,16 @@
 }
 
 @media(max-width:700px){
+
+    .otherProject{
+        background-color: red;
+        height: 80%;
+    }
+
+    /*
+    .other-projects-img{
+        height: 80%;
+    }*/
 
     /*Third Page*/
 

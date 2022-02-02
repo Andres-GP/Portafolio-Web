@@ -1592,6 +1592,7 @@ header{
 
 #otherProjectsCarousel__container__schoolsContainer__carouselExample1Dark__carouselIndicator button{
     opacity: 0;
+    pointer-events: none;
 }
 
 .otherProject__box{
