@@ -1185,15 +1185,21 @@
 
 @media(max-width:700px){
 
-    .otherProject{
-        background-color: red;
-        height: 80%;
+    .secondPageColumn__otherProyectsContainer{
+        margin-top: 100px;
     }
 
-    /*
-    .other-projects-img{
-        height: 80%;
-    }*/
+    .otherProject{
+        margin-top: 30px;
+    }
+
+    .otherProjectsCarousel{
+        height: 700px;
+    }
+
+    .otherProject__box{
+        margin-left: 37%;
+    }
 
     /*Third Page*/
 
@@ -1216,7 +1222,7 @@
         margin-top: -25px;
     }
     #carouselExampleDark{
-        height: 330px;
+        height: 400px;
         width: 462px;
         margin-top: -22px;
     }
@@ -1232,6 +1238,8 @@
 }
 
 @media(max-width:570px){
+
+    
 
     /*Loader*/
     #loaderSection{
@@ -1382,6 +1390,11 @@
         width: auto;
     }
 
+
+    .otherProject__box{
+        margin-left: 33%;
+    }
+
     /*Third Page*/
 
     /*titles*/
@@ -1403,7 +1416,7 @@
         margin-top: -24px;
     }
     #carouselExampleDark{
-        height: 250px;
+        height: 320px;
         width: 362px;
         margin-top: -24px;
     }
@@ -1459,6 +1472,22 @@
 
     .firstPage__leftContainer__container__titleContainer h1{
         margin-top: 10px;
+    }
+
+    #carouselExampleDark{
+        height: 280px !important;
+        width: 100%;
+        margin-top: 0px !important;
+    }
+
+    .otherProject img{
+        height: 100%;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .otherProject__box{
+        margin-left: 30%;
     }
 
     /*third page*/
@@ -1698,6 +1727,8 @@
     .secondPageColumn__otherProyectsContainer__titleContainer{
         width: 85vw;
     }
+
+
     
     /*Third Page*/
 
