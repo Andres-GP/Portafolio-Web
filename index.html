@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="manifest" href="./manifest.json">
+    <script>
+        if("ServiceWorker" in navigator ) {
+            navigator.serviceWorker.register("sw.js")
+        }
+    </script>
+
     <title>Andres García - Software Developer</title>
     <meta name="description" content="I’m a Mobile & web Frontend Developer with over 2 years of experience, I have a long experience in Development, Design, Animation and Post-Production.">
 
