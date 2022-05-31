@@ -10,8 +10,8 @@
     "start_url": "./",
     "icons":[
        {
-           "src":"./assets/favIcon.svg",
-           "type":"image/svg",
+           "src":"./assets/favIcon.png",
+           "type":"image/png",
             "sizes":"512x512"
         }
     ]
