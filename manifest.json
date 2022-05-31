@@ -10,7 +10,7 @@
     "start_url": "./",
     "icons":[
        {
-           "src":"./assets/header_logo.svg",
+           "src":"./assets/mobile_logo.png",
            "type":"image/png",
             "sizes":"512x512"
         }
